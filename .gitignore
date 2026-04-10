@@ -9,7 +9,3 @@ web-build/
 .env
 .env.*
 !.env.example
-
-# Lista M3U local (não versionar se contiver URLs sensíveis)
-playlist.m3u
-*.m3u.local
