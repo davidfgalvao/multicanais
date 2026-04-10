@@ -1,0 +1,15 @@
+node_modules/
+.next/
+out/
+dist/
+web-build/
+.vercel
+*.log
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# Lista M3U local (não versionar se contiver URLs sensíveis)
+playlist.m3u
+*.m3u.local
