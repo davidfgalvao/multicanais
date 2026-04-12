@@ -13,6 +13,9 @@ const artigoRef =
 const iptvOrgIndex =
   "https://iptv-org.github.io/iptv/index.m3u";
 
+const listaEsporteRepo =
+  "https://github.com/leandrosilvabr/iptv.lista-esporte";
+
 export default function GuiaPage() {
   return (
     <div className="mx-auto max-w-3xl px-4 py-10 pb-16 text-slate-100">
@@ -67,8 +70,19 @@ export default function GuiaPage() {
           <code className="font-mono">npm run build</code> corre antes{" "}
           <code className="font-mono">npm run fetch:iptv</code>: descarrega a
           playlist <strong className="text-slate-300">Brasil</strong> (
-          <code className="font-mono text-xs">countries/br.m3u</code>) e gera{" "}
-          <code className="font-mono">channels.generated.json</code>. Na
+          <code className="font-mono text-xs">countries/br.m3u</code>), depois
+          junta a lista{" "}
+          <a
+            href={listaEsporteRepo}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent hover:underline"
+          >
+            leandrosilvabr/iptv.lista-esporte
+          </a>{" "}
+          (<code className="font-mono text-xs">iptvlista.m3u</code>), e gera{" "}
+          <code className="font-mono">channels.generated.json</code> (URLs
+          repetidas ficam só uma vez, mantendo a ordem iptv-org primeiro). Na
           Vercel não precisas de configurar nada para esse comportamento.
         </p>
         <p className="text-sm text-slate-500">
@@ -77,6 +91,8 @@ export default function GuiaPage() {
           (ex. lista mundial{" "}
           <code className="font-mono text-xs">{iptvOrgIndex}</code>
           — ficheiro grande, build mais lento).{" "}
+          <code className="font-mono">EXTRA_PLAYLIST_URL=0</code> desativa só a
+          segunda lista.{" "}
           <code className="font-mono">SKIP_IPTV_FETCH=1</code> mantém o JSON já
           commitado sem rede no build.
         </p>
@@ -100,7 +116,7 @@ export default function GuiaPage() {
               /canais
             </Link>
             ) — preenchida no <code className="font-mono">build</code> a partir
-            da playlist iptv-org (BR por defeito) ou com{" "}
+            das playlists iptv-org (BR por defeito) + lista esporte, ou com{" "}
             <code className="font-mono">npm run import:channels</code> para um{" "}
             <code className="font-mono">.m3u</code> teu.
           </li>

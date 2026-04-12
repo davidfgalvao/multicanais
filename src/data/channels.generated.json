@@ -1515,5 +1515,228 @@
     "group": "General",
     "logo": "https://i.imgur.com/TxHWAeD.png",
     "streamUrl": "https://video01.kshost.com.br/seap8272/seap8272/playlist.m3u8"
+  },
+  {
+    "id": "ch-218",
+    "name": "Liga da Justiça",
+    "group": "Filmes",
+    "streamUrl": "https://x.filmes.click/m0/d/791373-720p.mp4"
+  },
+  {
+    "id": "ch-219",
+    "name": "All Sports",
+    "group": "Esportes",
+    "logo": "http://www.cxtv.com.br/img/Tvs/Logo/e7091994dd0a7abb969c3a058a21f710.jpg",
+    "streamUrl": "https://5cf4a2c2512a2.streamlock.net/dgrau/dgrau/playlist.m3u8"
+  },
+  {
+    "id": "ch-220",
+    "name": "Claro Sports(Espanhol)",
+    "group": "Esportes",
+    "logo": "https://e7.pngegg.com/pngimages/580/710/png-clipart-logo-claro-sports-graphics-vivo-logo-de-claro-text-logo.png",
+    "streamUrl": "http://clarosport-origen.clarovideo.net/Content/hls/Live/Channel(jjoo2016ch01)/index.m3u8"
+  },
+  {
+    "id": "ch-221",
+    "name": "Eurosport 1(Espanhol)",
+    "group": "Esportes",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Eurosport_1_Logo_2015.svg/1280px-Eurosport_1_Logo_2015.svg.png",
+    "streamUrl": "http://91.126.141.201:1935/live/smil:eurosport1nntv.smil/chunklist_w1626503379_b1328000_sling.m3u8"
+  },
+  {
+    "id": "ch-222",
+    "name": "ESPN HD",
+    "group": "Esportes",
+    "logo": "http://i.imgur.com/kcxzdPA.png",
+    "streamUrl": "http://playplusespn-lh.akamaihd.net/i/pp_espn@374460/index_720_av-p.m3u8"
+  },
+  {
+    "id": "ch-223",
+    "name": "Espn 2 HD",
+    "group": "Esportes",
+    "logo": "https://th.bing.com/th/id/OIP.Pf1Yi-BcSqLX7oSM7DovtgHaBZ?pid=ImgDet&rs=1",
+    "streamUrl": "http://playplusespn-lh.akamaihd.net/i/pp_espnmais@374460/index_720_av-p.m3u8"
+  },
+  {
+    "id": "ch-224",
+    "name": "Espn Brasil HD",
+    "group": "Esportes",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/7/77/Logo_espnbrasil.png",
+    "streamUrl": "http://playplusespn-lh.akamaihd.net/i/pp_espnbra@374460/index_720_av-p.m3u8"
+  },
+  {
+    "id": "ch-225",
+    "name": "Espn Extra HD",
+    "group": "Esportes",
+    "logo": "https://3.bp.blogspot.com/-TNq_WQvu70w/WVrJrd2fhWI/AAAAAAAA8KQ/J02VFD8ys-sKxshHsgbLuXVBJIH_IYlawCLcBGAs/s640/espnextra.png",
+    "streamUrl": "http://playplusespn-lh.akamaihd.net/i/pp_espnext@374460/index_720_av-p.m3u8"
+  },
+  {
+    "id": "ch-226",
+    "name": "Estádio TNT Sports 1",
+    "group": "Esportes",
+    "logo": "https://i.imgur.com/C9SpMkF.png",
+    "streamUrl": "https://slvcs87g3x.akamaized.net/live/canal_01/playlist.m3u8"
+  },
+  {
+    "id": "ch-227",
+    "name": "Estádio TNT Sports 2",
+    "group": "Esportes",
+    "logo": "https://i.imgur.com/C9SpMkF.png",
+    "streamUrl": "https://slvcs87g3x.akamaized.net/live/canal_02/playlist.m3u8"
+  },
+  {
+    "id": "ch-228",
+    "name": "Estádio TNT Sports 3",
+    "group": "Esportes",
+    "logo": "https://i.imgur.com/C9SpMkF.png",
+    "streamUrl": "https://slvcs87g3x.akamaized.net/live/canal_03/playlist.m3u8"
+  },
+  {
+    "id": "ch-229",
+    "name": "Estádio TNT Sports 4",
+    "group": "Esportes",
+    "logo": "https://i.imgur.com/C9SpMkF.png",
+    "streamUrl": "https://glxlmn026c.singularcdn.net.br/playout_01/playlist-720p.m3u8"
+  },
+  {
+    "id": "ch-230",
+    "name": "Estádio TNT Sports 5",
+    "group": "Esportes",
+    "logo": "https://i.imgur.com/C9SpMkF.png",
+    "streamUrl": "https://glxlmn026c.singularcdn.net.br/playout_02/playlist-720p.m3u8"
+  },
+  {
+    "id": "ch-231",
+    "name": "Estádio TNT Sports 6",
+    "group": "Esportes",
+    "logo": "https://i.imgur.com/C9SpMkF.png",
+    "streamUrl": "https://glxlmn026c.singularcdn.net.br/playout_03/playlist-720p.m3u8"
+  },
+  {
+    "id": "ch-232",
+    "name": "Estádio TNT Sports 7",
+    "group": "Esportes",
+    "logo": "https://i.imgur.com/C9SpMkF.png",
+    "streamUrl": "https://glxlmn026c.singularcdn.net.br/playout_04/playlist-720p.m3u8"
+  },
+  {
+    "id": "ch-233",
+    "name": "Estádio TNT Sports 8",
+    "group": "Esportes",
+    "logo": "https://i.imgur.com/C9SpMkF.png",
+    "streamUrl": "https://glxlmn026c.singularcdn.net.br/playout_05/playlist-720p.m3u8"
+  },
+  {
+    "id": "ch-234",
+    "name": "Premiere Clubes HD",
+    "group": "Esportes",
+    "logo": "https://i.imgur.com/6uxBFpQ.png",
+    "streamUrl": "http://20eua10india.cf/HD_PFC_CLUBES/video.m3u8?token=7d8486902dad6d53d228a1c8f8e928e0"
+  },
+  {
+    "id": "ch-235",
+    "name": "Premiere Clubes SD",
+    "group": "Esportes",
+    "logo": "https://i.imgur.com/6uxBFpQ.png",
+    "streamUrl": "http://20eua10india.cf/SD_PFC_CLUBES/video.m3u8?token=7d8486902dad6d53d228a1c8f8e928e0"
+  },
+  {
+    "id": "ch-236",
+    "name": "Premiere 2 HD",
+    "group": "Esportes",
+    "logo": "https://i.imgur.com/6uxBFpQ.png",
+    "streamUrl": "http://13ca3india.ga/HD_PFC_2/video.m3u8?token=7d8486902dad6d53d228a1c8f8e928e0"
+  },
+  {
+    "id": "ch-237",
+    "name": "Premiere 2 SD",
+    "group": "Esportes",
+    "logo": "https://i.imgur.com/6uxBFpQ.png",
+    "streamUrl": "http://13ca3india.ga/SD_PFC_2/video.m3u8?token=7d8486902dad6d53d228a1c8f8e928e0"
+  },
+  {
+    "id": "ch-238",
+    "name": "Premiere 3 HD",
+    "group": "Esportes",
+    "logo": "https://i.imgur.com/6uxBFpQ.png",
+    "streamUrl": "http://13ca3india.ga/HD_PFC_3/video.m3u8?token=7d8486902dad6d53d228a1c8f8e928e0"
+  },
+  {
+    "id": "ch-239",
+    "name": "Premiere 3 SD",
+    "group": "Esportes",
+    "logo": "https://i.imgur.com/6uxBFpQ.png",
+    "streamUrl": "http://13ca3india.ga/SD_PFC_3/video.m3u8?token=7d8486902dad6d53d228a1c8f8e928e0"
+  },
+  {
+    "id": "ch-240",
+    "name": "Premiere 4 HD",
+    "group": "Esportes",
+    "logo": "https://i.imgur.com/6uxBFpQ.png",
+    "streamUrl": "http://13ca3foxtrot.ga/HD_PFC_4/video.m3u8?token=7d8486902dad6d53d228a1c8f8e928e0"
+  },
+  {
+    "id": "ch-241",
+    "name": "Premiere 4 SD",
+    "group": "Esportes",
+    "logo": "https://i.imgur.com/6uxBFpQ.png",
+    "streamUrl": "http://13ca3foxtrot.ga/SD_PFC_4/video.m3u8?token=7d8486902dad6d53d228a1c8f8e928e0"
+  },
+  {
+    "id": "ch-242",
+    "name": "Premiere 5 HD",
+    "group": "Esportes",
+    "logo": "https://i.imgur.com/6uxBFpQ.png",
+    "streamUrl": "http://12ca3echo.ga/HD_PFC_5/video.m3u8?token=7d8486902dad6d53d228a1c8f8e928e0"
+  },
+  {
+    "id": "ch-243",
+    "name": "Premiere 5 SD",
+    "group": "Esportes",
+    "logo": "https://i.imgur.com/6uxBFpQ.png",
+    "streamUrl": "http://12ca3echo.ga/SD_PFC_5/video.m3u8?token=7d8486902dad6d53d228a1c8f8e928e0"
+  },
+  {
+    "id": "ch-244",
+    "name": "Premiere 6 HD",
+    "group": "Esportes",
+    "logo": "https://i.imgur.com/6uxBFpQ.png",
+    "streamUrl": "http://13ca3echo.ga/HD_PFC_6/video.m3u8?token=7d8486902dad6d53d228a1c8f8e928e0"
+  },
+  {
+    "id": "ch-245",
+    "name": "Premiere 6 SD",
+    "group": "Esportes",
+    "logo": "https://i.imgur.com/6uxBFpQ.png",
+    "streamUrl": "http://13ca3echo.ga/SD_PFC_6/video.m3u8?token=7d8486902dad6d53d228a1c8f8e928e0"
+  },
+  {
+    "id": "ch-246",
+    "name": "Red Bull TV(inglês)",
+    "group": "Esportes",
+    "logo": "https://2.bp.blogspot.com/-nKFQjWxV-Co/XRZMlbgmYDI/AAAAAAAABPI/RLnB3Goeyw83rN6mM2J7O3kw8sQ3QtyCgCLcBGAs/s320/Screenshot_2019-06-28-14-19-55.png",
+    "streamUrl": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_928.m3u8"
+  },
+  {
+    "id": "ch-247",
+    "name": "SporTV HD",
+    "group": "Esportes",
+    "logo": "https://i.imgur.com/YzY6fI2.png",
+    "streamUrl": "http://21eua10alpha.cf/HD_SOKASJDH_1/video.m3u8?token=7d8486902dad6d53d228a1c8f8e928e0"
+  },
+  {
+    "id": "ch-248",
+    "name": "TV Dubai Racing(inglês)",
+    "group": "Esportes",
+    "logo": "http://www.cxtv.com.br/img/Tvs/Logo/895c7ba6376e57efcfabcc14d291b339.jpg",
+    "streamUrl": "https://dmisvthvll.cdn.mangomolo.com/events/smil:events.smil/chunklist_b1600000.m3u8"
+  },
+  {
+    "id": "ch-249",
+    "name": "WooHoo",
+    "group": "Esportes",
+    "logo": "https://i.imgur.com/D6plAdz.png",
+    "streamUrl": "http://177.20.208.58:8000/play/a022/index.m3u8"
   }
 ]
