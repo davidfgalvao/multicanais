@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
+import { SiteFooter } from "@/components/SiteFooter";
 import { SiteNav } from "@/components/SiteNav";
+import { siteAuthor } from "@/config/author";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -11,6 +13,9 @@ const geistSans = Geist({
 export const metadata: Metadata = {
   title: "Lista M3U — canais",
   description: "Importação M3U, lista de canais e guia de referência",
+  authors: [
+    { name: siteAuthor.displayName, url: siteAuthor.githubProfileUrl },
+  ],
 };
 
 export default function RootLayout({
@@ -21,10 +26,11 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className="dark">
       <body
-        className={`${geistSans.variable} font-sans antialiased`}
+        className={`${geistSans.variable} flex min-h-dvh flex-col font-sans antialiased`}
       >
         <SiteNav />
-        {children}
+        <div className="flex flex-1 flex-col">{children}</div>
+        <SiteFooter />
       </body>
     </html>
   );
