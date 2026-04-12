@@ -1,5 +1,6 @@
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
+import { keepChannelBrazilFlagsOnly } from "../src/lib/filterChannelsForeignFlags";
 import { parseM3U } from "../src/lib/parseM3U";
 
 const arg = process.argv[2];
@@ -28,7 +29,16 @@ if (arg === "-" || arg === "--stdin") {
   process.exit(1);
 }
 
-const channels = parseM3U(raw);
+let channels = parseM3U(raw);
+if (process.env.KEEP_FOREIGN_FLAG_CHANNELS !== "1") {
+  const before = channels.length;
+  channels = channels.filter(keepChannelBrazilFlagsOnly);
+  if (before !== channels.length) {
+    console.log(
+      `Filtrados ${before - channels.length} canais (bandeira ≠ 🇧🇷 ou palavra-chave estrangeira)`
+    );
+  }
+}
 
 const withIds = channels.map((ch, i) => ({
   ...ch,

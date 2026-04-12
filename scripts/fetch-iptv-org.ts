@@ -1,6 +1,7 @@
 import { writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 import type { M3UChannel } from "../src/types";
+import { keepChannelBrazilFlagsOnly } from "../src/lib/filterChannelsForeignFlags";
 import { parseM3U } from "../src/lib/parseM3U";
 
 /**
@@ -103,7 +104,16 @@ async function main() {
     }
   }
 
-  const merged = mergeChannels(parts);
+  let merged = mergeChannels(parts);
+  const skipFlagFilter = process.env.KEEP_FOREIGN_FLAG_CHANNELS === "1";
+  if (!skipFlagFilter) {
+    const before = merged.length;
+    merged = merged.filter(keepChannelBrazilFlagsOnly);
+    console.log(
+      `  → removidos ${before - merged.length} canais (bandeira ≠ 🇧🇷 ou palavra-chave de outro país no grupo/nome)`
+    );
+  }
+
   const withIds = merged.map((ch, i) => ({
     ...ch,
     id: `ch-${i + 1}`,
@@ -112,7 +122,7 @@ async function main() {
   const outPath = resolve(process.cwd(), "src/data/channels.generated.json");
   writeFileSync(outPath, JSON.stringify(withIds, null, 2), "utf8");
   console.log(
-    `Total ${withIds.length} canais (iptv-org primeiro, depois iprtl; dedupe por URL) → ${outPath}`
+    `Total ${withIds.length} canais → ${outPath}`
   );
 }
 

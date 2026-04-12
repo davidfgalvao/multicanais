@@ -81,11 +81,17 @@ export default function GuiaPage() {
           (<code className="font-mono text-xs">Freetv.m3u</code>,{" "}
           <code className="font-mono text-xs">Pluto.m3u</code>, ficheiros em{" "}
           <code className="font-mono text-xs">Streams/</code>
-          ), com deduplicação por URL (mantém a ordem iptv-org primeiro). Gera{" "}
+          ), com deduplicação por URL (mantém a ordem iptv-org primeiro). Depois
+          remove canais cujo <code className="font-mono">group-title</code> ou
+          nome tenha bandeira que não seja só{" "}
+          <strong className="text-slate-300">🇧🇷</strong>, ou{" "}
+          <strong className="text-slate-300">palavras</strong> típicas de outros
+          países/regiões (ex. Portugal, USA, Europa, África). Gera{" "}
           <code className="font-mono">channels.generated.json</code>.
         </p>
         <p className="text-sm text-slate-500">
-          <code className="font-mono">SKIP_IPRTL_M3U=1</code> ou{" "}
+          <code className="font-mono">KEEP_FOREIGN_FLAG_CHANNELS=1</code> desativa
+          esse filtro. <code className="font-mono">SKIP_IPRTL_M3U=1</code> ou{" "}
           <code className="font-mono">IPRTL_M3U=0</code> ignora só o iprtl/m3u.{" "}
           <code className="font-mono">IPRTL_M3U_REF</code> escolhe o ramo (ex.{" "}
           <code className="font-mono">live</code>). Variável opcional{" "}
@@ -126,7 +132,9 @@ export default function GuiaPage() {
             ) — preenchida no <code className="font-mono">build</code> a partir
             do iptv-org BR + listas iprtl/m3u (por defeito) ou com{" "}
             <code className="font-mono">npm run import:channels</code> para um{" "}
-            <code className="font-mono">.m3u</code> teu.
+            <code className="font-mono">.m3u</code> teu (o mesmo filtro de
+            bandeiras aplica-se, salvo{" "}
+            <code className="font-mono">KEEP_FOREIGN_FLAG_CHANNELS=1</code>).
           </li>
           <li>
             O site mostra grupos e ligações <strong className="text-slate-300">Abrir fonte</strong>; a
