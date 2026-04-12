@@ -3,11 +3,11 @@ import { resolve } from "node:path";
 import { parseM3U } from "../src/lib/parseM3U";
 
 /**
- * Playlist iptv-org BR por defeito; sobrescreve com IPTV_PLAYLIST_URL.
- * @see https://github.com/iptv-org/iptv
+ * Playlist iptv-org completa (índice mundial); sobrescreve com IPTV_PLAYLIST_URL.
+ * Ex. só Brasil: https://iptv-org.github.io/iptv/countries/br.m3u
+ * @see https://github.com/iptv-org/iptv/blob/master/PLAYLISTS.md
  */
-const DEFAULT_URL =
-  "https://iptv-org.github.io/iptv/countries/br.m3u";
+const DEFAULT_URL = "https://iptv-org.github.io/iptv/index.m3u";
 
 async function main() {
   if (process.env.SKIP_IPTV_FETCH === "1") {

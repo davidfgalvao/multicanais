@@ -13,6 +13,9 @@ const artigoRef =
 const iptvOrgIndex =
   "https://iptv-org.github.io/iptv/index.m3u";
 
+const iptvOrgBr =
+  "https://iptv-org.github.io/iptv/countries/br.m3u";
+
 export default function GuiaPage() {
   return (
     <div className="mx-auto max-w-3xl px-4 py-10 pb-16 text-slate-100">
@@ -65,20 +68,29 @@ export default function GuiaPage() {
           </a>{" "}
           agrega listas públicas. Neste projeto, o comando{" "}
           <code className="font-mono">npm run build</code> corre antes{" "}
-          <code className="font-mono">npm run fetch:iptv</code>: descarrega a
-          playlist <strong className="text-slate-300">Brasil</strong> (
-          <code className="font-mono text-xs">countries/br.m3u</code>) e gera{" "}
-          <code className="font-mono">channels.generated.json</code>. Na
-          Vercel não precisas de configurar nada para esse comportamento.
+          <code className="font-mono">npm run fetch:iptv</code>: descarrega o
+          índice <strong className="text-slate-300">completo</strong> (
+          <code className="font-mono text-xs">{iptvOrgIndex}</code>
+          ) — inclui canais por país, categoria e fluxos não só “globais” — e
+          gera <code className="font-mono">channels.generated.json</code>. O
+          ficheiro é grande: o build e o deploy demoram mais. Na Vercel não
+          precisas de variáveis extra para este comportamento.
         </p>
         <p className="text-sm text-slate-500">
-          Variável opcional{" "}
-          <code className="font-mono">IPTV_PLAYLIST_URL</code> para outra URL
-          (ex. lista mundial{" "}
-          <code className="font-mono text-xs">{iptvOrgIndex}</code>
-          — ficheiro grande, build mais lento).{" "}
-          <code className="font-mono">SKIP_IPTV_FETCH=1</code> mantém o JSON já
-          commitado sem rede no build.
+          Para uma lista mais leve (só Brasil), define{" "}
+          <code className="font-mono">IPTV_PLAYLIST_URL</code> com{" "}
+          <code className="font-mono text-xs">{iptvOrgBr}</code>. Outras URLs
+          em{" "}
+          <a
+            href="https://github.com/iptv-org/iptv/blob/master/PLAYLISTS.md"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent hover:underline"
+          >
+            PLAYLISTS.md
+          </a>
+          . <code className="font-mono">SKIP_IPTV_FETCH=1</code> mantém o JSON
+          já commitado sem rede no build.
         </p>
       </section>
 
@@ -100,7 +112,7 @@ export default function GuiaPage() {
               /canais
             </Link>
             ) — preenchida no <code className="font-mono">build</code> a partir
-            da playlist iptv-org (BR por defeito) ou com{" "}
+            da playlist iptv-org (índice completo por defeito) ou com{" "}
             <code className="font-mono">npm run import:channels</code> para um{" "}
             <code className="font-mono">.m3u</code> teu.
           </li>
