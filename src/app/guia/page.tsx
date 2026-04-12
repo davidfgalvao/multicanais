@@ -66,13 +66,29 @@ export default function GuiaPage() {
           agrega listas públicas. Neste projeto, o comando{" "}
           <code className="font-mono">npm run build</code> corre antes{" "}
           <code className="font-mono">npm run fetch:iptv</code>: descarrega a
-          playlist <strong className="text-slate-300">Brasil</strong> (
-          <code className="font-mono text-xs">countries/br.m3u</code>) e gera{" "}
-          <code className="font-mono">channels.generated.json</code>. Na
-          Vercel não precisas de configurar nada para esse comportamento.
+          playlist <strong className="text-slate-300">Brasil</strong> do
+          iptv-org (
+          <code className="font-mono text-xs">countries/br.m3u</code>) e, em
+          seguida, as listas públicas do repositório{" "}
+          <a
+            href="https://github.com/iprtl/m3u"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent hover:underline"
+          >
+            iprtl/m3u
+          </a>{" "}
+          (<code className="font-mono text-xs">Freetv.m3u</code>,{" "}
+          <code className="font-mono text-xs">Pluto.m3u</code>, ficheiros em{" "}
+          <code className="font-mono text-xs">Streams/</code>
+          ), com deduplicação por URL (mantém a ordem iptv-org primeiro). Gera{" "}
+          <code className="font-mono">channels.generated.json</code>.
         </p>
         <p className="text-sm text-slate-500">
-          Variável opcional{" "}
+          <code className="font-mono">SKIP_IPRTL_M3U=1</code> ou{" "}
+          <code className="font-mono">IPRTL_M3U=0</code> ignora só o iprtl/m3u.{" "}
+          <code className="font-mono">IPRTL_M3U_REF</code> escolhe o ramo (ex.{" "}
+          <code className="font-mono">live</code>). Variável opcional{" "}
           <code className="font-mono">IPTV_PLAYLIST_URL</code> para outra URL
           (ex. lista mundial{" "}
           <code className="font-mono text-xs">{iptvOrgIndex}</code>
@@ -108,7 +124,7 @@ export default function GuiaPage() {
               /canais
             </Link>
             ) — preenchida no <code className="font-mono">build</code> a partir
-            da playlist iptv-org (BR por defeito) ou com{" "}
+            do iptv-org BR + listas iprtl/m3u (por defeito) ou com{" "}
             <code className="font-mono">npm run import:channels</code> para um{" "}
             <code className="font-mono">.m3u</code> teu.
           </li>

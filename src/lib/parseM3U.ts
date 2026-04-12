@@ -42,8 +42,25 @@ function isStreamLine(line: string): boolean {
   return /^https?:\/\//i.test(line) && !line.startsWith("#");
 }
 
+export type ParseM3UOptions = {
+  /** Nome base para listas só com master HLS (#EXT-X-STREAM-INF), sem #EXTINF */
+  sourceLabel?: string;
+};
+
+function hlsVariantLabel(infLine: string): string {
+  const res = infLine.match(/RESOLUTION=([^,\s]+)/i)?.[1];
+  const bw = infLine.match(/BANDWIDTH=(\d+)/i)?.[1];
+  const parts: string[] = [];
+  if (res) parts.push(res);
+  if (bw) parts.push(`${Math.round(Number(bw) / 1000)} kbps`);
+  return parts.length > 0 ? parts.join(" · ") : "variante";
+}
+
 /** Converte texto .m3u / .m3u8 em canais. Use apenas listas que tenhas direito de usar. */
-export function parseM3U(content: string): M3UChannel[] {
+export function parseM3U(
+  content: string,
+  options?: ParseM3UOptions
+): M3UChannel[] {
   const lines = repairM3UDialect(content)
     .split(/\r?\n/)
     .map((l) => l.trim())
@@ -52,6 +69,9 @@ export function parseM3U(content: string): M3UChannel[] {
   const out: M3UChannel[] = [];
   let i = 0;
   if (lines[0] === "#EXTM3U") i = 1;
+
+  const hlsBase = options?.sourceLabel?.trim() || "Stream HLS";
+  const hlsGroup = options?.sourceLabel ? "iprtl" : "Sem grupo";
 
   while (i < lines.length) {
     const line = lines[i];
@@ -73,6 +93,27 @@ export function parseM3U(content: string): M3UChannel[] {
         i += 1;
         continue;
       }
+    }
+    if (line.startsWith("#EXT-X-STREAM-INF")) {
+      const variant = hlsVariantLabel(line);
+      i += 1;
+      let sub = 0;
+      while (i < lines.length && isStreamLine(lines[i])) {
+        const streamUrl = lines[i].trim();
+        const name =
+          sub === 0
+            ? `${hlsBase} (${variant})`
+            : `${hlsBase} (${variant} · ${sub + 1})`;
+        out.push({
+          id: `ch-${out.length + 1}`,
+          name,
+          group: hlsGroup,
+          streamUrl,
+        });
+        sub += 1;
+        i += 1;
+      }
+      continue;
     }
     i += 1;
   }

@@ -20,9 +20,18 @@ export default function Page() {
           >
             iptv-org/iptv
           </a>{" "}
-          (playlist <strong className="text-slate-300">Brasil</strong> por
-          defeito). Podes substituir por um <code className="font-mono">.m3u</code>{" "}
-          local com <code className="font-mono">npm run import:channels</code>.
+          (playlist <strong className="text-slate-300">Brasil</strong> do
+          iptv-org mais listas do{" "}
+          <a
+            href="https://github.com/iprtl/m3u"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent hover:underline"
+          >
+            iprtl/m3u
+          </a>
+          , por defeito). Lista local:{" "}
+          <code className="font-mono">npm run import:channels</code>.
         </p>
         <div className="mt-10 flex flex-col items-stretch gap-3 sm:flex-row sm:justify-center">
           <Link
