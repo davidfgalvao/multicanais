@@ -20,10 +20,9 @@ export default function Page() {
           >
             iptv-org/iptv
           </a>{" "}
-          (índice <strong className="text-slate-300">completo</strong> por
-          defeito — milhares de entradas). Para só Brasil ou outra URL, usa{" "}
-          <code className="font-mono">IPTV_PLAYLIST_URL</code> no deploy. Lista
-          local: <code className="font-mono">npm run import:channels</code>.
+          (playlist <strong className="text-slate-300">Brasil</strong> por
+          defeito). Podes substituir por um <code className="font-mono">.m3u</code>{" "}
+          local com <code className="font-mono">npm run import:channels</code>.
         </p>
         <div className="mt-10 flex flex-col items-stretch gap-3 sm:flex-row sm:justify-center">
           <Link
