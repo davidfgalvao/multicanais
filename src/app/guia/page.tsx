@@ -67,16 +67,21 @@ export default function GuiaPage() {
           <code className="font-mono">npm run build</code> corre antes{" "}
           <code className="font-mono">npm run fetch:iptv</code>: descarrega a
           playlist <strong className="text-slate-300">Brasil</strong> (
-          <code className="font-mono text-xs">countries/br.m3u</code>) e gera{" "}
-          <code className="font-mono">channels.generated.json</code>. Na
-          Vercel não precisas de configurar nada para esse comportamento.
+          <code className="font-mono text-xs">countries/br.m3u</code>) e junta a
+          categoria <strong className="text-slate-300">Sports</strong> (
+          <code className="font-mono text-xs">categories/sports.m3u</code>
+          , canais de vários países), com deduplicação por URL. Gera{" "}
+          <code className="font-mono">channels.generated.json</code>. Na Vercel
+          não precisas de variáveis para este comportamento.
         </p>
         <p className="text-sm text-slate-500">
-          Variável opcional{" "}
+          <code className="font-mono">SKIP_SPORTS_PLAYLIST=1</code> ou{" "}
+          <code className="font-mono">SPORTS_PLAYLIST_URL=0</code> remove só a
+          lista de desporto. Variável opcional{" "}
           <code className="font-mono">IPTV_PLAYLIST_URL</code> para outra URL
-          (ex. lista mundial{" "}
+          primária (ex. lista mundial{" "}
           <code className="font-mono text-xs">{iptvOrgIndex}</code>
-          — ficheiro grande, build mais lento). Ver outras listas em{" "}
+          — ficheiro grande). Ver outras listas em{" "}
           <a
             href="https://github.com/iptv-org/iptv/blob/master/PLAYLISTS.md"
             target="_blank"
@@ -108,7 +113,7 @@ export default function GuiaPage() {
               /canais
             </Link>
             ) — preenchida no <code className="font-mono">build</code> a partir
-            da playlist iptv-org (BR por defeito) ou com{" "}
+            das playlists iptv-org (BR + Sports por defeito) ou com{" "}
             <code className="font-mono">npm run import:channels</code> para um{" "}
             <code className="font-mono">.m3u</code> teu.
           </li>
