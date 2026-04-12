@@ -86,8 +86,21 @@ export default function GuiaPage() {
           nome tenha bandeira que não seja só{" "}
           <strong className="text-slate-300">🇧🇷</strong>, ou{" "}
           <strong className="text-slate-300">palavras</strong> típicas de outros
-          países/regiões (ex. Portugal, USA, Europa, África). Gera{" "}
-          <code className="font-mono">channels.generated.json</code>.
+          países/regiões (ex. Portugal, USA, Europa, África); remove também
+          entradas de <strong className="text-slate-300">rádio</strong> (grupo ou
+          nome). Para canais sem <code className="font-mono">tvg-logo</code> no
+          M3U, tenta preencher o logótipo com a{" "}
+          <a
+            href="https://github.com/iptv-org/api"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent hover:underline"
+          >
+            API pública iptv-org
+          </a>{" "}
+          (<code className="font-mono">tvg-id</code>, nome BR ou nome único na
+          base). Gera <code className="font-mono">channels.generated.json</code>{" "}
+          (sem gravar <code className="font-mono">tvg-id</code> no JSON).
         </p>
         <p className="text-sm text-slate-500">
           <code className="font-mono">KEEP_FOREIGN_FLAG_CHANNELS=1</code> desativa
@@ -108,7 +121,9 @@ export default function GuiaPage() {
             PLAYLISTS.md
           </a>
           . <code className="font-mono">SKIP_IPTV_FETCH=1</code> mantém o JSON
-          já commitado sem rede no build.
+          já commitado sem rede no build.{" "}
+          <code className="font-mono">SKIP_LOGO_ENRICH=1</code> evita pedidos
+          extra à API iptv-org ao enriquecer logos.
         </p>
       </section>
 

@@ -80,6 +80,7 @@ export function parseM3U(
       const name = title || attrs["tvg-name"]?.trim() || "Canal";
       const group = attrs["group-title"]?.trim() || "Sem grupo";
       const logo = attrs["tvg-logo"]?.trim() || undefined;
+      const tvgId = attrs["tvg-id"]?.trim() || undefined;
       i += 1;
       if (i < lines.length && isStreamLine(lines[i])) {
         const streamUrl = lines[i].trim();
@@ -88,6 +89,7 @@ export function parseM3U(
           name,
           group,
           logo: logo || undefined,
+          ...(tvgId ? { tvgId } : {}),
           streamUrl,
         });
         i += 1;

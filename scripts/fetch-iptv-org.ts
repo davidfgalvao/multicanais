@@ -2,6 +2,8 @@ import { writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 import type { M3UChannel } from "../src/types";
 import { keepChannelBrazilFlagsOnly } from "../src/lib/filterChannelsForeignFlags";
+import { keepNonRadioChannel } from "../src/lib/filterRadioChannels";
+import { enrichChannelsWithIptvOrgLogos } from "../src/lib/iptvOrgLogos";
 import { parseM3U } from "../src/lib/parseM3U";
 
 /**
@@ -114,7 +116,20 @@ async function main() {
     );
   }
 
-  const withIds = merged.map((ch, i) => ({
+  {
+    const before = merged.length;
+    merged = merged.filter(keepNonRadioChannel);
+    const removed = before - merged.length;
+    if (removed > 0) {
+      console.log(`  → removidos ${removed} entradas (rádio)`);
+    }
+  }
+
+  merged = await enrichChannelsWithIptvOrgLogos(merged, {
+    skip: process.env.SKIP_LOGO_ENRICH === "1",
+  });
+
+  const withIds = merged.map(({ tvgId: _tvg, ...ch }, i) => ({
     ...ch,
     id: `ch-${i + 1}`,
   }));

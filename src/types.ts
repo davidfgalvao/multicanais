@@ -4,5 +4,7 @@ export interface M3UChannel {
   name: string;
   group: string;
   logo?: string;
+  /** iptv-org `tvg-id` (ex. Canal.br@SD); usado para enriquecer logos. */
+  tvgId?: string;
   streamUrl: string;
 }

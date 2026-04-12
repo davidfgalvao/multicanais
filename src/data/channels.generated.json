@@ -1609,2444 +1609,2198 @@
   },
   {
     "id": "ch-231",
-    "name": "Wonder 80's",
-    "group": "Radios",
-    "logo": "https://static.mytuner.mobi/media/tvos_radios/2C5DZ9pVXS.jpeg",
-    "streamUrl": "https://80.streeemer.com/listen/80s/radio.aac"
-  },
-  {
-    "id": "ch-232",
-    "name": "ZigZag fm",
-    "group": "Radios",
-    "logo": "https://static.wikia.nocookie.net/logopedia/images/6/6c/ZigZag.png",
-    "streamUrl": "https://streaming-live.rtp.pt/liveradio/zigzag80a/playlist.m3u8?wowzasessionid=@iprtlk"
-  },
-  {
-    "id": "ch-233",
-    "name": "ONfm",
-    "group": "Radios",
-    "logo": "https://onfm.pt/wp-content/uploads/2023/09/logo-on-fm.png",
-    "streamUrl": "http://shoutcast.lunabroadcasting.net:8052/stream"
-  },
-  {
-    "id": "ch-234",
-    "name": "Tuga Fm",
-    "group": "Radios",
-    "logo": "https://app.tugafm.com/images/1757453483_8bf6c2fa5cedbd047d04.png",
-    "streamUrl": "https://tugafm.stream.laut.fm/tugafm"
-  },
-  {
-    "id": "ch-235",
-    "name": "Radio m80",
-    "group": "Radios",
-    "logo": "https://bauermedia.pt/images/logos/nobg/m80-black.png",
-    "streamUrl": "https://stream-icy.bauermedia.pt/m80.mp3"
-  },
-  {
-    "id": "ch-236",
-    "name": "m80 80's",
-    "group": "Radios",
-    "logo": "https://m80.pt/images/radios/m80-80.webp",
-    "streamUrl": "https://stream-icy.bauermedia.pt/m8080.aac"
-  },
-  {
-    "id": "ch-237",
-    "name": "M80Pop",
-    "group": "Radios",
-    "logo": "https://m80.pt/images/radios/m80-pop.webp",
-    "streamUrl": "https://stream-icy.bauermedia.pt/m80pop.aac"
-  },
-  {
-    "id": "ch-238",
-    "name": "M80Rock",
-    "group": "Radios",
-    "logo": "https://m80.pt/images/radios/m80-rock.webp",
-    "streamUrl": "https://stream-hls.bauermedia.pt/m80rock.aac/playlist.m3u8?listeningSessionID=66d83f1a2b3df6b8_31973641_82N5tc32__00000010nE6&downloadSessionID=0&source=bauerptWebplayer&aw_0_1st.playerId=bauerptWebplayer"
-  },
-  {
-    "id": "ch-239",
-    "name": "M80Portugal",
-    "group": "Radios",
-    "logo": "https://m80.pt/images/radios/m80-portugal.webp",
-    "streamUrl": "https://stream-hls.bauermedia.pt/m80nacional.aac/playlist.m3u8?listeningSessionID=66d83f1a2b3df6b8_31973273_SZs2LLhr__00000010nA1&downloadSessionID=0&source=bauerptWebplayer&aw_0_1st.playerId=bauerptWebplayer"
-  },
-  {
-    "id": "ch-240",
-    "name": "Radio Comercial",
-    "group": "Radios",
-    "logo": "https://play-lh.googleusercontent.com/SCFCFhQUvcgwzg58XUBY9b6TC0qEvITwrfMPqCocvniuhgho3N91iTgIFL2ik1O4-Q",
-    "streamUrl": "https://stream-icy.bauermedia.pt/comercial.mp3"
-  },
-  {
-    "id": "ch-241",
-    "name": "Comercial best 00's",
-    "group": "Radios",
-    "logo": "https://play-lh.googleusercontent.com/SCFCFhQUvcgwzg58XUBY9b6TC0qEvITwrfMPqCocvniuhgho3N91iTgIFL2ik1O4-Q",
-    "streamUrl": "https://stream-icy.bauermedia.pt/rcbest2000.aac"
-  },
-  {
-    "id": "ch-242",
-    "name": "RFM",
-    "group": "Radios",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/7/73/Logo_RFM.webp",
-    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/RFM_SC"
-  },
-  {
-    "id": "ch-243",
-    "name": "RFM Dance",
-    "group": "Radios",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/7/73/Logo_RFM.webp",
-    "streamUrl": "https://stream-icy.bauermedia.pt/m80dance.aac"
-  },
-  {
-    "id": "ch-244",
-    "name": "RFM 80",
-    "group": "Radios",
-    "logo": "https://rfmsite-images.azureedge.net/images/webrads/RFM-80s_lg.png",
-    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/GR80SRFM_SC"
-  },
-  {
-    "id": "ch-245",
-    "name": "RFM Oceano Pacifico",
-    "group": "Radios",
-    "logo": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da844b1e6bcb859977c7c1ca980e",
-    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/OCEANPACIFICAAC_SC"
-  },
-  {
-    "id": "ch-246",
-    "name": "RFM On the Rock",
-    "group": "Radios",
-    "logo": "https://www.radio.pt/images/broadcasts/09/f1/110226/1/c300.png",
-    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/RFMONTHEROCKAAC_SC"
-  },
-  {
-    "id": "ch-247",
-    "name": "Radio Nostalgia",
-    "group": "Radios",
-    "logo": "https://radio.nostalgiafm.com.br/uploads/nostalgia-fm.jpg",
-    "streamUrl": "https://stream-hls.bauermedia.pt/cidhiphop.aac/playlist.m3u8"
-  },
-  {
-    "id": "ch-248",
-    "name": "Cidade fm",
-    "group": "Radios",
-    "logo": "https://play-lh.googleusercontent.com/GAVi2EgqHp_c4k9_hyFjr45-n7vV-mD17gW9_B_no6BEn-Rempp_dDTQWL0DqBnW2s88",
-    "streamUrl": "https://stream-icy.bauermedia.pt/cidade.mp3"
-  },
-  {
-    "id": "ch-249",
-    "name": "Cidade Hoje fm",
-    "group": "Radios",
-    "logo": "https://play-lh.googleusercontent.com/GAVi2EgqHp_c4k9_hyFjr45-n7vV-mD17gW9_B_no6BEn-Rempp_dDTQWL0DqBnW2s88",
-    "streamUrl": "https://centova.radio.com.pt/proxy/119?mp=/stream"
-  },
-  {
-    "id": "ch-250",
-    "name": "Saudade Cidade fm",
-    "group": "Radios",
-    "logo": "https://play-lh.googleusercontent.com/GAVi2EgqHp_c4k9_hyFjr45-n7vV-mD17gW9_B_no6BEn-Rempp_dDTQWL0DqBnW2s88",
-    "streamUrl": "https://stream.zeno.fm/q9k377tdzy8uv"
-  },
-  {
-    "id": "ch-251",
-    "name": "Batida fm",
-    "group": "Radios",
-    "logo": "https://batida.fm/images/logo-BATIDAFM-white.svg",
-    "streamUrl": "https://stream-icy.bauermedia.pt/batidafm.mp3"
-  },
-  {
-    "id": "ch-252",
-    "name": "Radio Super FM",
-    "group": "Radios",
-    "logo": "https://www.superfm.com/wp-content/uploads/2015/09/superfmlogo.png",
-    "streamUrl": "https://play.radioregional.pt:8210/stream/2/;/stream.mp3"
-  },
-  {
-    "id": "ch-253",
-    "name": "Radio Oxigenio",
-    "group": "Radios",
-    "logo": "https://www.oxigenio.fm/wp-content/uploads/2018/11/radio_oxigenio-1.png",
-    "streamUrl": "https://proic1.evspt.com/oxigenio_aac"
-  },
-  {
-    "id": "ch-254",
-    "name": "Radio Meo Sudoeste",
-    "group": "Radios",
-    "logo": "https://radiosudoeste.pt/media/plg_system_cgwebp/_cache/images/meosw/layout/android-chrome-192x192.webp",
-    "streamUrl": "http://centova.radios.pt:8495/stream/1/"
-  },
-  {
-    "id": "ch-255",
-    "name": "NovaEra",
-    "group": "Radios",
-    "logo": "https://radionovaera.pt/favicon.ico",
-    "streamUrl": "http://centova.radios.pt:9478/stream/1/"
-  },
-  {
-    "id": "ch-256",
-    "name": "Nove3cinco",
-    "group": "Radios",
-    "logo": "https://nove3cinco.pt/sv/wp-content/uploads/2018/01/Normal_semfundo.png",
-    "streamUrl": "http://centova.radios.pt:9522/stream/1/"
-  },
-  {
-    "id": "ch-257",
-    "name": "Hiper FM",
-    "group": "Radios",
-    "logo": "http://www.hiper.fm/wp-content/uploads/2013/10/homepage_hiperfm.png",
-    "streamUrl": "http://195.23.85.126:9500/stream/1/"
-  },
-  {
-    "id": "ch-258",
-    "name": "Rádio Mega Hits",
-    "group": "Radios",
-    "logo": "https://megasite-images.azureedge.net/images/apple-touch-icon-114x114.png",
-    "streamUrl": "https://22653.live.streamtheworld.com/MEGA_HITSAAC.aac"
-  },
-  {
-    "id": "ch-259",
-    "name": "Radio Marginal",
-    "group": "Radios",
-    "logo": "https://marginal.fm/images/favicon/apple-touch-icon.png",
-    "streamUrl": "http://centova.radios.pt:8499/stream/1/"
-  },
-  {
-    "id": "ch-260",
-    "name": "Orbital",
-    "group": "Radios",
-    "logo": "https://img.radios.com.br/radio/lg/radio8738_1541608618.jpg",
-    "streamUrl": "http://195.23.85.126:8401/stream/1/"
-  },
-  {
-    "id": "ch-261",
-    "name": "Hip Hop Radio",
-    "group": "Radios",
-    "logo": "https://hiphopradio.pt/wp-content/uploads/2019/09/cropped-favicon_512x512-180x180.png",
-    "streamUrl": "https://rs2.ptservidor.com/proxy/hiphopp?mp=%2Fstream"
-  },
-  {
-    "id": "ch-262",
-    "name": "Smooth fm",
-    "group": "Radios",
-    "logo": "https://smoothfm.pt/images/logo-smoothfm-principal.png?qc-size=260,100",
-    "streamUrl": "https://stream-icy.bauermedia.pt/smooth.mp3"
-  },
-  {
-    "id": "ch-263",
-    "name": "TSF",
-    "group": "Radios",
-    "logo": "https://asset.skoiy.com/tsfiqogiwkcugyug/1iifarrl8cwr.png",
-    "streamUrl": "https://directo.tsf.pt/tsfdirecto.mp3"
-  },
-  {
-    "id": "ch-264",
-    "name": "RResnascenca",
-    "group": "Radios",
-    "logo": "https://rrsite-images.azureedge.net/favicon/favicon-32x32.png",
-    "streamUrl": "https://25643.live.streamtheworld.com/RADIO_RENASCENCAAAC_SC"
-  },
-  {
-    "id": "ch-265",
-    "name": "Rádio Observador",
-    "group": "Radios",
-    "logo": "https://observador.pt/wp-content/themes/observador-child/assets/build/img/apple-touch-icon.png",
-    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/OBSERVADOR_ADP.m3u8"
-  },
-  {
-    "id": "ch-266",
-    "name": "CMR",
-    "group": "Radios",
-    "logo": "https://www.cmjornal.pt/i/logos/logo_cmr_header.png",
-    "streamUrl": "https://emdireto.cmradio.pt/audio2/output-stream.m3u8"
-  },
-  {
-    "id": "ch-267",
-    "name": "Antena 1",
-    "group": "Radios",
-    "logo": "http://media.rtp.pt/empresa/wp-content/uploads/sites/31/2015/07/Antena1_negativo_vert_RGB.png",
-    "streamUrl": "http://radiocast.rtp.pt/antena180a.mp3"
-  },
-  {
-    "id": "ch-268",
-    "name": "Antena 1",
-    "group": "Radios",
-    "logo": "http://media.rtp.pt/empresa/wp-content/uploads/sites/31/2015/07/Antena1_negativo_vert_RGB.png",
-    "streamUrl": "http://streaming-live-app.rtp.pt/liveradio/antena180a/playlist.m3u8?wowzasessionid=inspiration"
-  },
-  {
-    "id": "ch-269",
-    "name": "Antena 1 Vida",
-    "group": "Radios",
-    "logo": "https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/103-551119141305.png",
-    "streamUrl": "https://streaming-live.rtp.pt/liveradio/vida80a/chunklist_DVR.m3u8"
-  },
-  {
-    "id": "ch-270",
-    "name": "Antena 2 Jazzin",
-    "group": "Radios",
-    "logo": "https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/101-262619141305.png",
-    "streamUrl": "https://streaming-live.rtp.pt/liveradio/antena2jazzin80a/chunklist_DVR.m3u8"
-  },
-  {
-    "id": "ch-271",
-    "name": "Antena 3",
-    "group": "Radios",
-    "logo": "https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/antena3.png?w=180",
-    "streamUrl": "http://streaming-live-app.rtp.pt/liveradio/antena380a/playlist.m3u8?wowzasessionid=inspiration"
-  },
-  {
-    "id": "ch-272",
-    "name": "Radio brigantia",
-    "group": "Radios",
-    "logo": "https://www.brigantia.pt/sites/all/themes/evo_bootstrap/logo.png",
-    "streamUrl": "https://centova.radio.com.pt/proxy/491?mp=/stream"
-  },
-  {
-    "id": "ch-273",
     "name": "Miami TV",
     "group": "Erotic",
     "logo": "https://github.com/iprtl/p1/raw/master/logo/Miamitv.webp",
     "streamUrl": "https://59ec5453559f0.streamlock.net/miamitv/smil:WEB/playlist.m3u8"
   },
   {
-    "id": "ch-274",
+    "id": "ch-232",
     "name": "Miami DJ",
     "group": "Erotic",
     "logo": "https://github.com/iprtl/p1/raw/master/logo/Miamitv.webp",
     "streamUrl": "https://59ec5453559f0.streamlock.net/miamitvDJ/smil:56925/playlist.m3u8"
   },
   {
-    "id": "ch-275",
+    "id": "ch-233",
     "name": "Spoops tv",
     "group": "Erotic",
     "logo": "https://github.com/iprtl/p1/raw/master/logo/spoops.png",
     "streamUrl": "https://fl1003.bozztv.com/ushba46/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-276",
+    "id": "ch-234",
     "name": "Ushba t8",
     "group": "Erotic",
     "logo": "https://iptvx.one/picons/fashion-tv.png",
     "streamUrl": "https://fl1001.bozztv.com/ushba-t8/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-277",
+    "id": "ch-235",
     "name": "Ushba m7",
     "group": "Erotic",
     "logo": "https://iptvx.one/picons/fashion-tv.png",
     "streamUrl": "https://fl1001.bozztv.com/ushba-m7/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-278",
+    "id": "ch-236",
     "name": "Ushba m9",
     "group": "Erotic",
     "logo": "https://iptvx.one/picons/fashion-tv.png",
     "streamUrl": "https://fl1001.bozztv.com/ushba-m9/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-279",
+    "id": "ch-237",
     "name": "☆ Tela Brasil tv ᴸᴼᵂ 🇧🇷",
     "group": "Novelas 🌎",
     "logo": "https://static.wixstatic.com/media/c66e37_aa372b2b7a8b4cc29d5095b5e3ba1e37~mv2.png",
     "streamUrl": "https://stmv.webtvninjas.com.br/mailson6054/mailson6054/playlist.m3u8"
   },
   {
-    "id": "ch-280",
+    "id": "ch-238",
     "name": "☆ A terra Prometida 🇧🇷",
     "group": "Novelas 🌎",
     "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/BR30002677_20250528T010250SQUARE.png",
     "streamUrl": "https://dfr80qz435crc.cloudfront.net/IJKL/Amagi/Samsung/ATerraPrometida_BR/ATerraPrometida.m3u8"
   },
   {
-    "id": "ch-281",
+    "id": "ch-239",
     "name": "☆ Os Dez Mandamentos 🇧🇷",
     "group": "Novelas 🌎",
     "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/BRBC2200010BW_20250528T010139SQUARE.png",
     "streamUrl": "https://cc-38amk5g6kmcpo.akamaized.net/Os_Dez_Mandamentos.m3u8"
   },
   {
-    "id": "ch-282",
+    "id": "ch-240",
     "name": "☆ Minha Identidade e Beleza de Gangnam 🇧🇷",
     "group": "Novelas 🌎",
     "logo": "https://github.com/iprtl/p1/raw/master/logo/mibg.png",
     "streamUrl": "https://ads.its-newid.net/api/manifest.m3u8?tp=lg_channels&channel_name=minhaidentidade%C3%A9belezadegangnam&channel_id=newid_233"
   },
   {
-    "id": "ch-283",
+    "id": "ch-241",
     "name": "☆ Malhação Fast 🇧🇷",
     "group": "Novelas 🌎",
     "logo": "https://static.wikia.nocookie.net/logopedia/images/6/61/MalhacaoFast_2024.png",
     "streamUrl": "https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/Globo/Malhacao_Fast_BR/576p-vtt/index.m3u8"
   },
   {
-    "id": "ch-284",
+    "id": "ch-242",
     "name": "☆ Duck tv 🇧🇷",
     "group": "Kids 🧒🌎",
     "logo": "https://logo.m3uassets.com/ducktv.png",
     "streamUrl": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=7617"
   },
   {
-    "id": "ch-285",
+    "id": "ch-243",
     "name": "☆ Pocoyo 🇧🇷",
     "group": "Kids 🧒🌎",
     "logo": "https://media.tvup.cloud/canales/color_lg_61ea6fef709aaf001a5581ae.png",
     "streamUrl": "https://jmp2.uk/stvp-GB700004ET"
   },
   {
-    "id": "ch-286",
+    "id": "ch-244",
     "name": "☆ Léo e Lully 🇧🇷",
     "group": "Kids 🧒🌎",
     "logo": "https://nxplay-images.comets.com.br/resize/65ba3aa6b33fa_e87fab2ab503a0032691e607098fb9e8.png",
     "streamUrl": "https://cdn-3.nxplay.com.br/LEO_E_LULLY/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-287",
+    "id": "ch-245",
     "name": "☆ Os Padrinhos Mágicos 🇧🇷",
     "group": "Kids 🧒🌎",
     "logo": "https://images.pluto.tv/channels/63221e41af69b500076f84e7/colorLogoPNG.png",
     "streamUrl": "https://jmp2.uk/plu-63221e41af69b500076f84e7.m3u8"
   },
   {
-    "id": "ch-288",
+    "id": "ch-246",
     "name": "☆ Popeye 🇧🇷",
     "group": "Kids 🧒🌎",
     "logo": "https://images.pluto.tv/channels/677d93f37bffa600080795e7/colorLogoPNG.png",
     "streamUrl": "https://jmp2.uk/plu-677d93f37bffa600080795e7.m3u8"
   },
   {
-    "id": "ch-289",
+    "id": "ch-247",
     "name": "☆ Nickelodeon Bob Esponja 🇧🇷",
     "group": "Kids 🧒🌎",
     "logo": "https://images.pluto.tv/channels/62545c0b002f4b0007688b61/colorLogoPNG.png",
     "streamUrl": "https://jmp2.uk/plu-62545c0b002f4b0007688b61.m3u8"
   },
   {
-    "id": "ch-290",
+    "id": "ch-248",
     "name": "☆ Toon Goggles 🇧🇷",
     "group": "Kids 🧒🌎",
     "logo": "https://upload.wikimedia.org/wikipedia/en/d/da/Toon_Goggles_logo.png",
     "streamUrl": "https://tg-tg-br-samsung.otteravision.com/tg/tg_br_h265/tg_br_h265.m3u8"
   },
   {
-    "id": "ch-291",
+    "id": "ch-249",
     "name": "☆ Teletubbies 🇧🇷",
     "group": "Kids 🧒🌎",
     "logo": "https://images.pluto.tv/channels/64e50055286f6b000838c067/colorLogoPNG.png",
     "streamUrl": "https://jmp2.uk/plu-64e50055286f6b000838c067.m3u8"
   },
   {
-    "id": "ch-292",
+    "id": "ch-250",
     "name": "☆ Moranguinho 🇧🇷",
     "group": "Kids 🧒🌎",
     "logo": "https://images.pluto.tv/channels/63eba189c111bc0008ff59c5/colorLogoPNG.png",
     "streamUrl": "https://jmp2.uk/plu-63eba189c111bc0008ff59c5.m3u8"
   },
   {
-    "id": "ch-293",
+    "id": "ch-251",
     "name": "☆ Kids Club 🇧🇷",
     "group": "Kids 🧒🌎",
     "logo": "https://images.pluto.tv/channels/66c8cae7fed35b0008580ec0/colorLogoPNG.png",
     "streamUrl": "https://jmp2.uk/plu-66c8cae7fed35b0008580ec0.m3u8"
   },
   {
-    "id": "ch-294",
+    "id": "ch-252",
     "name": "☆ Nick Jr. Club 🇧🇷",
     "group": "Kids 🧒🌎",
     "logo": "https://images.pluto.tv/channels/5f121460b73ac6000719fbaf/colorLogoPNG.png",
     "streamUrl": "https://jmp2.uk/plu-5f121460b73ac6000719fbaf.m3u8"
   },
   {
-    "id": "ch-295",
+    "id": "ch-253",
     "name": "☆ Nickelodeon iCarly 🇧🇷",
     "group": "Kids 🧒🌎",
     "logo": "https://images.pluto.tv/channels/620ff0a01f9e8700076c6f9d/colorLogoPNG.png",
     "streamUrl": "https://jmp2.uk/plu-620ff0a01f9e8700076c6f9d.m3u8"
   },
   {
-    "id": "ch-296",
+    "id": "ch-254",
     "name": "☆ Nickelodeon Clássico 🇧🇷",
     "group": "Kids 🧒🌎",
     "logo": "https://images.pluto.tv/channels/5f12151794c1800007a8ae63/colorLogoPNG.png",
     "streamUrl": "https://jmp2.uk/plu-5f12151794c1800007a8ae63.m3u8"
   },
   {
-    "id": "ch-297",
+    "id": "ch-255",
     "name": "☆ As Tartarugas Ninja 🇧🇷",
     "group": "Kids 🧒🌎",
     "logo": "https://images.pluto.tv/channels/63dd5c904e83e700088fb68a/colorLogoPNG.png",
     "streamUrl": "https://jmp2.uk/plu-63dd5c904e83e700088fb68a.m3u8"
   },
   {
-    "id": "ch-298",
+    "id": "ch-256",
     "name": "☆ Desenhos Clássicos 🇧🇷",
     "group": "Kids 🧒🌎",
     "logo": "https://images.pluto.tv/channels/655e5c4d2c46f3000877a54b/colorLogoPNG.png",
     "streamUrl": "https://jmp2.uk/plu-655e5c4d2c46f3000877a54b.m3u8"
   },
   {
-    "id": "ch-299",
+    "id": "ch-257",
     "name": "☆ Oggy e as Baratas Tontas 🇧🇷",
     "group": "Kids 🧒🌎",
     "logo": "https://images.pluto.tv/channels/63221bafdc6e110007b50270/colorLogoPNG.png",
     "streamUrl": "https://jmp2.uk/plu-63221bafdc6e110007b50270.m3u8"
   },
   {
-    "id": "ch-300",
+    "id": "ch-258",
     "name": "☆ South Park (Coleção Cartman) 🇧🇷",
     "group": "South Park 🇧🇷",
     "logo": "https://images.pluto.tv/channels/65df71008b24c80008f04281/colorLogoPNG.png",
     "streamUrl": "https://jmp2.uk/plu-65df71008b24c80008f04281.m3u8"
   },
   {
-    "id": "ch-301",
+    "id": "ch-259",
     "name": "☆ South Park (Coleção Kenny) 🇧🇷",
     "group": "South Park 🇧🇷",
     "logo": "https://images.pluto.tv/channels/65df704366eec8000898e32f/colorLogoPNG.png",
     "streamUrl": "https://jmp2.uk/plu-65df704366eec8000898e32f.m3u8"
   },
   {
-    "id": "ch-302",
+    "id": "ch-260",
     "name": "☆ South Park (Coleção Kyle) 🇧🇷",
     "group": "South Park 🇧🇷",
     "logo": "https://images.pluto.tv/channels/65df713dec9fda0008b7a81d/colorLogoPNG.png",
     "streamUrl": "https://jmp2.uk/plu-65df713dec9fda0008b7a81d.m3u8"
   },
   {
-    "id": "ch-303",
+    "id": "ch-261",
     "name": "☆ South Park (Coleção Stan) 🇧🇷",
     "group": "South Park 🇧🇷",
     "logo": "https://images.pluto.tv/channels/65df70b0f7f0af0008c3b316/colorLogoPNG.png",
     "streamUrl": "https://jmp2.uk/plu-65df70b0f7f0af0008c3b316.m3u8"
   },
   {
-    "id": "ch-304",
+    "id": "ch-262",
     "name": "☆ Hallo! Anime 🇧🇷",
     "group": "Anime",
     "logo": "https://hallo.tv.br/img/ANIME.png",
     "streamUrl": "https://cdn-3.nxplay.com.br/HALLOANIME/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-305",
+    "id": "ch-263",
     "name": "☆ Anime Onegai₁ 🇧🇷",
     "group": "Anime",
     "logo": "https://hallo.tv.br/img/ANIME.png",
     "streamUrl": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=11777"
   },
   {
-    "id": "ch-306",
+    "id": "ch-264",
     "name": "☆ Anime Onegai₂ 🇧🇷",
     "group": "Anime",
     "logo": "https://hallo.tv.br/img/ANIME.png",
     "streamUrl": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=11776"
   },
   {
-    "id": "ch-307",
+    "id": "ch-265",
     "name": "☆ Anime Onegai₃ 🇧🇷",
     "group": "Anime",
     "logo": "https://hallo.tv.br/img/ANIME.png",
     "streamUrl": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=11775"
   },
   {
-    "id": "ch-308",
+    "id": "ch-266",
     "name": "☆ Anime Onegai₄ 🇧🇷",
     "group": "Anime",
     "logo": "https://hallo.tv.br/img/ANIME.png",
     "streamUrl": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=11774"
   },
   {
-    "id": "ch-309",
+    "id": "ch-267",
     "name": "☆ Anime Onegai₅ 🇧🇷",
     "group": "Anime",
     "logo": "https://hallo.tv.br/img/ANIME.png",
     "streamUrl": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=11773"
   },
   {
-    "id": "ch-310",
+    "id": "ch-268",
     "name": "☆ LOL! Standup",
     "group": "​Fanny & Comedy 😂",
     "logo": "https://i.imgur.com/qgsyzW4.png",
     "streamUrl": "https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991123"
   },
   {
-    "id": "ch-311",
+    "id": "ch-269",
     "name": "☆ LOL! Network",
     "group": "​Fanny & Comedy 😂",
     "logo": "https://i.imgur.com/Tiy3Ur2.png",
     "streamUrl": "https://7f4538d7.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/Vml6aW9fTE9MTmV0d29ya19ITFM/playlist.m3u8"
   },
   {
-    "id": "ch-312",
+    "id": "ch-270",
     "name": "☆ Autentic Travel",
     "group": "Tv • Food & Travel 🍽️✈️",
     "logo": "https://cdn-01.watch4.com/01/1739459845_autentic-travel_red_logo.png",
     "streamUrl": "https://autentic-autentictravel-1-gb.lg.wurl.tv/playlist.m3u8"
   },
   {
-    "id": "ch-313",
+    "id": "ch-271",
     "name": "☆ Sony One Emoções 🇧🇷",
     "group": "Tv • Series 📺",
     "logo": "https://play-lh.googleusercontent.com/7DRaDczy1zOuBcLdixMRf_NAxAFq6BuNJ1OQdlmN-nuSWfGYj_phTEpa_PiFqHxMRF_-=w0",
     "streamUrl": "https://spt-sonyoneemocoes-1-br.samsung.wurl.tv/playlist.m3u8"
   },
   {
-    "id": "ch-314",
+    "id": "ch-272",
     "name": "☆ Sony One Clássicos 🇧🇷",
     "group": "Tv • Series 📺",
     "logo": "https://play-lh.googleusercontent.com/7DRaDczy1zOuBcLdixMRf_NAxAFq6BuNJ1OQdlmN-nuSWfGYj_phTEpa_PiFqHxMRF_-=w0",
     "streamUrl": "https://spt-sonyoneclassicas-1-br.samsung.wurl.tv/playlist.m3u8"
   },
   {
-    "id": "ch-315",
+    "id": "ch-273",
     "name": "☆ NCIS 🇧🇷",
     "group": "Tv • Series 📺",
     "logo": "https://images.pluto.tv/channels/63eb9fdda995710008991c54/colorLogoPNG.png",
     "streamUrl": "https://jmp2.uk/plu-63eb9fdda995710008991c54.m3u8"
   },
   {
-    "id": "ch-316",
+    "id": "ch-274",
     "name": "☆ CSI Miami 🇧🇷",
     "group": "Tv • Series 📺",
     "logo": "https://images.pluto.tv/channels/63eb9c5351f5d000085e8d7e/colorLogoPNG.png",
     "streamUrl": "https://jmp2.uk/plu-63eb9c5351f5d000085e8d7e.m3u8"
   },
   {
-    "id": "ch-317",
+    "id": "ch-275",
     "name": "☆ Urban Series 🇧🇷",
     "group": "Tv • Series 📺",
     "logo": "https://imgur.com/Bav8k4e.png",
     "streamUrl": "https://gerenciar.vivatele.com:443/viva_padrao/viva2384/110.m3u8"
   },
   {
-    "id": "ch-318",
+    "id": "ch-276",
     "name": "☆ Z Nation 🇧🇷",
     "group": "Tv • Series 📺",
     "logo": "https://images.pluto.tv/channels/66b3af1c3a4ad200081c7d03/colorLogoPNG.png",
     "streamUrl": "https://d3rciv7av2te5a.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-plex/273fcd65-2d19-4aea-af0d-544b93207cbc/5.m3u8"
   },
   {
-    "id": "ch-319",
+    "id": "ch-277",
     "name": "☆ All Reality WE TV [ᴘʟᴇx]",
     "group": "Tv • Reality 📺",
     "logo": "https://provider-static.plex.tv/epg/cms/production/654a8db7-8ea1-4b3f-8d0e-8cd49d80c5f1/AR_Rebrand_TT_Stacked_RDX.png",
     "streamUrl": "https://amc-absolutereality-1-us.plex.wurl.tv/playlist.m3u8"
   },
   {
-    "id": "ch-320",
+    "id": "ch-278",
     "name": "☆ Channel 1 🇧🇷",
     "group": "Films 📽️",
     "logo": "https://channel1.ipgotv.top/LOGO_CH1.png",
     "streamUrl": "https://stmv2.painelvideocast.com.br/movies1/movies1/playlist.m3u8"
   },
   {
-    "id": "ch-321",
+    "id": "ch-279",
     "name": "☆ 1980 Channel 🇧🇷",
     "group": "Films 📽️",
     "logo": "https://github.com/iprtl/p1/raw/master/logo/1980.png",
     "streamUrl": "https://stmv2.painelvideocast.com.br/channel80/channel80/playlist.m3u8"
   },
   {
-    "id": "ch-322",
+    "id": "ch-280",
     "name": "☆ Filmes Aventura 🇧🇷",
     "group": "Films 📽️",
     "logo": "https://images.pluto.tv/channels/66c79a4262e5510008ff68a5/colorLogoPNG.png",
     "streamUrl": "https://jmp2.uk/plu-66c79a4262e5510008ff68a5.m3u8"
   },
   {
-    "id": "ch-323",
+    "id": "ch-281",
     "name": "☆ Filmelier TV 🇧🇷",
     "group": "Films 📽️",
     "logo": "https://images.pluto.tv/channels/633dcebd80386500074a2461/colorLogoPNG.png",
     "streamUrl": "https://jmp2.uk/plu-633dcebd80386500074a2461.m3u8"
   },
   {
-    "id": "ch-324",
+    "id": "ch-282",
     "name": "☆ Netmovies TV 🇧🇷",
     "group": "Films 📽️",
     "logo": "https://images.pluto.tv/channels/663b9de4f999220008230fa8/colorLogoPNG.png",
     "streamUrl": "https://jmp2.uk/plu-663b9de4f999220008230fa8.m3u8"
   },
   {
-    "id": "ch-325",
+    "id": "ch-283",
     "name": "☆ Rakuten Top Movies (💬 🇧🇷)",
     "group": "Films 📽️",
     "logo": "https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork-negative/b92a85cc-d53a-4ccd-af24-b985ce3db702-width200-quality90.png",
     "streamUrl": "https://top-movies-rakuten-tv-pt.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6741/master.m3u8?@iprtlk"
   },
   {
-    "id": "ch-326",
+    "id": "ch-284",
     "name": "☆ FreeTv Drama (💬 🇧🇷)",
     "group": "Films 📽️",
     "logo": "https://provider-static.plex.tv/epg/cms/production/9a2c0242-bbe7-4cce-8cb3-aab334d39ea5/FreeTVDrama_Circle_1500x1000_-_Ralph_Campillo.png",
     "streamUrl": "https://oly-ftvdrbr.otteravision.com/oly/ftvdrbr/ftvdrbr.m3u8?@iprtlk"
   },
   {
-    "id": "ch-327",
+    "id": "ch-285",
     "name": "☆ FreeTv Crime (💬 🇧🇷)",
     "group": "Films 📽️",
     "logo": "https://provider-static.plex.tv/epg/cms/production/d31bf899-f1db-46d8-a1b8-bdc314a0497e/FreeTVCrime_Circle_1500x1000_-_Ralph_Campillo.png",
     "streamUrl": "https://oly-ftvcbr.otteravision.com/oly/ftvcbr/ftvcbr.m3u8?@iprtlk"
   },
   {
-    "id": "ch-328",
+    "id": "ch-286",
     "name": "☆ Dark Matter (💬 🇧🇷)",
     "group": "Films 📽️",
     "logo": "https://provider-static.plex.tv/epg/cms/production/8430bfd1-b119-4f3d-8992-8921cad397e2/dark_matter_tv_logo_dark.png",
     "streamUrl": "https://d29h829bjuxghm.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_lgchannels-cdp-publica/ea98b139-7ef5-43a3-9b1f-2917cf4417fb/.m3u8"
   },
   {
-    "id": "ch-329",
+    "id": "ch-287",
     "name": "☆ Cindie Lite (💬🔊 🇧🇷)",
     "group": "Films 📽️",
     "logo": "https://d1y2dphb29uhu6.cloudfront.net/c/433/images/cqYA0kmQKlUvEWe95h6O7g.png",
     "streamUrl": "https://cc-hqw8u5r1nshjc.akamaized.net/scheduler/scheduleMaster/352.m3u8?@iprtlk"
   },
   {
-    "id": "ch-330",
+    "id": "ch-288",
     "name": "☆ My Time Movie Network (💬 🇧🇷)",
     "group": "Films 📽️",
     "logo": "https://github.com/iprtl/p1/raw/master/logo/myTimeMovie.webp",
     "streamUrl": "https://appletree-mytime-samsungbrazil.amagi.tv/playlist.m3u8?@iprtlk"
   },
   {
-    "id": "ch-331",
+    "id": "ch-289",
     "name": "☆ Runtime Tv & Filmes 🇧🇷",
     "group": "Films 📽️",
     "logo": "https://images.pluto.tv/channels/62c5d32e2c48f9000715b6e9/colorLogoPNG.png",
     "streamUrl": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=2153"
   },
   {
-    "id": "ch-332",
+    "id": "ch-290",
     "name": "☆ Runtime Família 🇧🇷",
     "group": "Films 📽️",
     "logo": "https://logo.m3uassets.com/runtime.png",
     "streamUrl": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=5589"
   },
   {
-    "id": "ch-333",
+    "id": "ch-291",
     "name": "☆ Runtime Comedia 🇧🇷",
     "group": "Films 📽️",
     "logo": "https://logo.m3uassets.com/runtime.png",
     "streamUrl": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=2553"
   },
   {
-    "id": "ch-334",
+    "id": "ch-292",
     "name": "☆ Runtime CinEspanto 🇧🇷",
     "group": "Films 📽️",
     "logo": "https://logo.m3uassets.com/runtime.png",
     "streamUrl": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=4865"
   },
   {
-    "id": "ch-335",
+    "id": "ch-293",
     "name": "☆ Runtime Crime 🇧🇷",
     "group": "Films 📽️",
     "logo": "https://logo.m3uassets.com/runtime.png",
     "streamUrl": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=4864"
   },
   {
-    "id": "ch-336",
+    "id": "ch-294",
     "name": "☆ Runtime Action 🇧🇷",
     "group": "Films 📽️",
     "logo": "https://logo.m3uassets.com/runtime.png",
     "streamUrl": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=2552"
   },
   {
-    "id": "ch-337",
+    "id": "ch-295",
     "name": "☆ Pluto Comédia 🇧🇷",
     "group": "Films 📽️",
     "logo": "https://images.pluto.tv/channels/6001f3018502100007f528ac/colorLogoPNG.png",
     "streamUrl": "https://jmp2.uk/plu-620d1512c7986a0007220213.m3u8"
   },
   {
-    "id": "ch-338",
+    "id": "ch-296",
     "name": "☆ Sou+Pop Tv 🇧🇷",
     "group": "Films 📽️",
     "logo": "https://soumaispop.com.br/storage/642/config/Z1uNOZZ3rKAkhyogFhAHaBYFnkOooDbEIu8rFoSY.png",
     "streamUrl": "https://video04.logicahost.com.br/soumaispop/soumaispop/playlist.m3u8"
   },
   {
-    "id": "ch-339",
+    "id": "ch-297",
     "name": "☆ Urban Movies 🇧🇷",
     "group": "Films 📽️",
     "logo": "https://d14z5zgripclfw.cloudfront.net/account351-i1091/archive/20/public/1666632642/urban_movies-1666632642.png",
     "streamUrl": "https://gerenciar.vivatele.com:443/viva_padrao/viva2384/108.m3u8"
   },
   {
-    "id": "ch-340",
+    "id": "ch-298",
     "name": "☆ FilmRise Action",
     "group": "Films 📽️",
     "logo": "https://provider-static.plex.tv/epg/cms/production/95f7fdde-d7ed-4301-a49e-9c027d7b6df0/Plex_FilmRise_ActionCA_Color_Logo.png",
     "streamUrl": "https://d3is52sgpnlx4c.cloudfront.net/10901/88885508/hls/master.m3u8?withResolution=true&ads.xumo_channelId=88885508"
   },
   {
-    "id": "ch-341",
+    "id": "ch-299",
     "name": "☆ Paranormal 🇧🇷",
     "group": "Tv • Paranormal 👽",
     "logo": "https://images.pluto.tv/channels/656e2a81954b020008ed17a4/colorLogoPNG.png",
     "streamUrl": "https://jmp2.uk/plu-656e2a81954b020008ed17a4.m3u8"
   },
   {
-    "id": "ch-342",
+    "id": "ch-300",
     "name": "☆ Clube de Terror 🇧🇷",
     "group": "Films • Terror 😱",
     "logo": "https://images.pluto.tv/channels/64e501eec630a900088ed0f8/colorLogoPNG.png",
     "streamUrl": "https://jmp2.uk/plu-64e501eec630a900088ed0f8.m3u8"
   },
   {
-    "id": "ch-343",
+    "id": "ch-301",
     "name": "☆ Terror Trash 🇧🇷",
     "group": "Films • Terror 😱",
     "logo": "https://images.pluto.tv/channels/66aa67493a4ad2000806d91b/colorLogoPNG.png",
     "streamUrl": "https://jmp2.uk/plu-66aa67493a4ad2000806d91b.m3u8"
   },
   {
-    "id": "ch-344",
+    "id": "ch-302",
     "name": "☆ Nightmare Network",
     "group": "Films • Terror 😱",
     "logo": "https://d3e3bui7xn67l.cloudfront.net/cms_media/media/live/channel/d4425d20-7ad1-400a-a6b8-6e360d61390e-1728676195.281007.256x256.png",
     "streamUrl": "https://d2xkj205tzzw4y.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/STIRR-MuxIP-NightmareNetwork/478.m3u8"
   },
   {
-    "id": "ch-345",
+    "id": "ch-303",
     "name": "☆ Scares by Shudder",
     "group": "Films • Terror 😱",
     "logo": "https://provider-static.plex.tv/6/epg/channels/logos/gracenote/627ce40ef536741e2d80772b3624650b.png",
     "streamUrl": "https://bc2ad39a.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEdfU2NhcmVzYnlTaHVkZGVyX0hMUw/playlist.m3u8"
   },
   {
-    "id": "ch-346",
+    "id": "ch-304",
     "name": "☆ Urban Retro 🇧🇷",
     "group": "Films • Clássicos & Western 🤠",
     "logo": "https://d14z5zgripclfw.cloudfront.net/account351-i1091/archive/17/public/1666632625/retro-1666632625.png",
     "streamUrl": "http://200.194.238.229:8383/live/urbanretro/playlist.m3u8"
   },
   {
-    "id": "ch-347",
+    "id": "ch-305",
     "name": "☆ Cowboy Movie Channel",
     "group": "Films • Clássicos & Western 🤠",
     "logo": "https://raw.githubusercontent.com/iprtl/p1/master/logo/CowboyMovie.webp",
     "streamUrl": "https://streams2.sofast.tv/ptnr-stirr/genre-Entertainment/lang-English/ctgr-Movies/title-COWBOY-MOVIE-CHANNEL-ENG/sofastplayout/32eb332e-f644-46e5-ad91-e55ad80d14f7_0_HLS/master.m3u8"
   },
   {
-    "id": "ch-348",
+    "id": "ch-306",
     "name": "☆ Pronto Socorro 🇧🇷",
     "group": "Doc & History 🏛️",
     "logo": "https://images.pluto.tv/channels/61bb72a7bf8c520007a8fd27/colorLogoPNG.png",
     "streamUrl": "https://jmp2.uk/plu-61bb72a7bf8c520007a8fd27.m3u8"
   },
   {
-    "id": "ch-349",
+    "id": "ch-307",
     "name": "☆ Curiosidade 🇧🇷",
     "group": "Doc & History 🏛️",
     "logo": "https://images.pluto.tv/channels/6474aadc8e3c0a0008b98493/colorLogoPNG.png",
     "streamUrl": "https://jmp2.uk/plu-6474aadc8e3c0a0008b98493.m3u8"
   },
   {
-    "id": "ch-350",
+    "id": "ch-308",
     "name": "☆ Quebrando o Tabu 🇧🇷",
     "group": "Doc & History 🏛️",
     "logo": "https://images.pluto.tv/channels/62cd9e5a5c38c00007f5669a/colorLogoPNG.png",
     "streamUrl": "https://jmp2.uk/plu-62cd9e5a5c38c00007f5669a.m3u8"
   },
   {
-    "id": "ch-351",
+    "id": "ch-309",
     "name": "☆ True History",
     "group": "Doc & History 🏛️",
     "logo": "https://provider-static.plex.tv/epg/cms/production/f37684ab-5eb6-48dd-8999-fbb6345689d4/1500x1000-DarkBG.png",
     "streamUrl": "https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-614398a08f30fa61e0da7c97.m3u8?X-Plex-Client-Identifier=xgkz9ui5tipdsflhzmh1ar3h&X-Plex-Client-Platform=Chrome&X-Plex-Token=pAYwv6yWYjbLp7fkRvGU"
   },
   {
-    "id": "ch-352",
+    "id": "ch-310",
     "name": "☆ Urban Doc 🇧🇷",
     "group": "Doc & History 🏛️",
     "logo": "https://d14z5zgripclfw.cloudfront.net/account351-i1091/archive/18/public/1666632630/urban_docs-1666632630.png",
     "streamUrl": "https://gerenciar.vivatele.com:443/viva_padrao/viva2384/107.m3u8"
   },
   {
-    "id": "ch-353",
+    "id": "ch-311",
     "name": "☆ Docu Vision",
     "group": "Doc & History 🏛️",
     "logo": "https://raw.githubusercontent.com/iprtl/p1/master/logo/docvision.webp",
     "streamUrl": "https://streams2.sofast.tv/ptnr-stirr/genre-Entertainment/lang-English/ctgr-Documentary/title-DOCUVISION-ENG/sofastplayout/7e8d2a51-985d-4e76-bf7e-91edf0aa6e5f_0_HLS/master.m3u8"
   },
   {
-    "id": "ch-354",
+    "id": "ch-312",
     "name": "☆ Tv + Pet 🇧🇷",
     "group": "Tv • Pets 🐶",
     "logo": "https://d14vd6r4ppsx57.cloudfront.net/media/brand/logo_tVEa6RS.png",
     "streamUrl": "https://isaocorp.cloudecast.com/tvmaispet/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-355",
+    "id": "ch-313",
     "name": "☆ Pet Lovers tv 🇧🇷",
     "group": "Tv • Pets 🐶",
     "logo": "https://github.com/iprtl/p1/raw/master/logo/LovePets.webp",
     "streamUrl": "https://video04.logicahost.com.br/petloverstv/petloverstv/playlist.m3u8"
   },
   {
-    "id": "ch-356",
+    "id": "ch-314",
     "name": "☆ Curiosity Now",
     "group": "Doc & History 🏛️",
     "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBA4900010X3_20220824T022304SQUARE.png_20220824022305.png",
     "streamUrl": "https://amg00170-amg00170c1-lg-us-3478.playouts.now.amagi.tv/playlist/amg00170-curiositystreamllcfast-curiositynow-lgus/playlist.m3u8?vpnusa"
   },
   {
-    "id": "ch-357",
+    "id": "ch-315",
     "name": "☆ Auto TV 🇧🇷",
     "group": "Sports • Motors 🏎️🏍",
     "logo": "https://github.com/iprtl/p1/raw/master/logo/autotvbr.webp",
     "streamUrl": "https://cdn.live.br1.jmvstream.com/webtv/txsneccr/playlist/playlist.m3u8"
   },
   {
-    "id": "ch-358",
+    "id": "ch-316",
     "name": "☆ TV Turbo 🇧🇷",
     "group": "Sports • Motors 🏎️🏍",
     "logo": "https://images.pluto.tv/channels/6014761dfb91870008ea6463/colorLogoPNG.png",
     "streamUrl": "https://jmp2.uk/plu-6014761dfb91870008ea6463.m3u8"
   },
   {
-    "id": "ch-359",
+    "id": "ch-317",
     "name": "☆ Urban Drive 🇧🇷",
     "group": "Sports • Motors 🏎️🏍",
     "logo": "https://d14z5zgripclfw.cloudfront.net/account351-i1091/archive/15/public/1666631616/urban_turbo-1666631616.png",
     "streamUrl": "https://gerenciar.vivatele.com/viva_padrao/viva2384/106.m3u8"
   },
   {
-    "id": "ch-360",
+    "id": "ch-318",
     "name": "☆ TV Esporte 🇧🇷",
     "group": "Sports • Motors 🏎️🏍",
     "logo": "https://images.pluto.tv/channels/5f32d2db0af67400077f29c4/colorLogoPNG.png",
     "streamUrl": "https://is.gd/BdIRpQ?5f32d2db0af67400077f29c4.m3u8"
   },
   {
-    "id": "ch-361",
+    "id": "ch-319",
     "name": "☆ Acelerados 🇧🇷",
     "group": "Sports • Motors 🏎️🏍",
     "logo": "http://acelerados.tv/site/wp-content/uploads/2018/04/logo-acelerados-lg.png",
     "streamUrl": "https://cc-afscwj856ih88.akamaized.net/IJKL/Amagi/Offgrid/Acelerados_BR/Acelerados.m3u8"
   },
   {
-    "id": "ch-362",
+    "id": "ch-320",
     "name": "☆ Nascar",
     "group": "Sports • Motors 🏎️🏍",
     "logo": "https://m.media-amazon.com/images/G/01/LCXO_Station_Logos/nascare.png",
     "streamUrl": "https://amg00115-amg00115c1-freelivesports-emea-11215.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00115-nascar-nascar-freelivesportsemea/playlist.m3u8?channel_name=NASCAR&content_genre=Drag%20Racing%2CMotor%20Racing%2CMotorsport%2CRacing%2CSport&ic=IAB17%2CIAB17-1&rating=PG&language=US&provider=FreeLiveSports&us_privacy=[US_PRIVACY]&gdpr=[GDPR]&gdpr_consent=[CONSENT_STRING]&coppa=0&content_livestream=1&p=sportstribal&url=[REF]&lmt=[LAT]&did=[DEVICE_ID]"
   },
   {
-    "id": "ch-363",
+    "id": "ch-321",
     "name": "☆ Drive tv",
     "group": "Sports • Motors 🏎️🏍",
     "logo": "https://i.ibb.co/Xs1PxZs/driveauto.png",
     "streamUrl": "https://amg01796-amg01796c2-rakuten-uk-3887.playouts.now.amagi.tv/playlist/amg01796-fastmediafast-drivetv-rakutenuk/playlist.m3u8"
   },
   {
-    "id": "ch-364",
+    "id": "ch-322",
     "name": "GE TV 🇧🇷",
     "group": "Sports FreeStreaming 🌍",
     "logo": "https://imgur.com/qHZ23Ue.png",
     "streamUrl": "https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/Globo/GE_Fast_BR/GE_Fast.m3u8"
   },
   {
-    "id": "ch-365",
+    "id": "ch-323",
     "name": "N SPORTS 🇧🇷",
     "group": "Sports FreeStreaming 🌍",
     "logo": "https://imgur.com/q0BWEK7.png",
     "streamUrl": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=16337"
   },
   {
-    "id": "ch-366",
+    "id": "ch-324",
     "name": "Desimpedidos 🇧🇷",
     "group": "Sports FreeStreaming 🌍",
     "logo": "https://imgur.com/AmnDQnB.png",
     "streamUrl": "https://cc-vvkv6xjfc6w5v.akamaized.net/ogc/desi/desi.m3u8"
   },
   {
-    "id": "ch-367",
+    "id": "ch-325",
     "name": "☆ RightNow TV",
     "group": "Sports FreeStreaming 🌍",
     "logo": "https://i.imgur.com/OxbIla4.png",
     "streamUrl": "https://a-cdn.klowdtv.com/live2/rightnowtv_720p/playlist.m3u8"
   },
   {
-    "id": "ch-368",
+    "id": "ch-326",
     "name": "☆ DAZN Fast+",
     "group": "Sports FreeStreaming 🌍",
     "logo": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ATBC4700001JX_20250610T010306SQUARE.png",
     "streamUrl": "https://jmp2.uk/stvp-ATBC4700001JX"
   },
   {
-    "id": "ch-369",
+    "id": "ch-327",
     "name": "☆ Table Soccer",
     "group": "Sports FreeStreaming 🌍",
     "logo": "https://raw.githubusercontent.com/iprtl/p1/master/logo/ITSF.webp",
     "streamUrl": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=7333"
   },
   {
-    "id": "ch-370",
+    "id": "ch-328",
     "name": "☆ Futbol Network",
     "group": "Sports FreeStreaming 🌍",
     "logo": "http://newwayplus.com/wp-content/uploads/2024/11/Fut-Net.png",
     "streamUrl": "https://live.relentlessinnovations.net:1936/futbolnetwork/futbolnetwork/playlist.m3u8"
   },
   {
-    "id": "ch-371",
+    "id": "ch-329",
     "name": "☆ ITV Deportes",
     "group": "Sports FreeStreaming 🌍",
     "logo": "https://images.pluto.tv/channels/63f7e3f9dff38e00082a57af/colorLogoPNG.png",
     "streamUrl": "https://jmp2.uk/plu-63f7e3f9dff38e00082a57af.m3u8"
   },
   {
-    "id": "ch-372",
+    "id": "ch-330",
     "name": "☆ Bowling TV",
     "group": "Sports FreeStreaming 🌍",
     "logo": "https://m.media-amazon.com/images/G/01/LCXO_Station_Logos/Bowling_TV__Station_Logo_Art._SL170_FMpng_.png",
     "streamUrl": "https://wurltripleb.global.transmit.live/hls/695eb4986d2aa32b698bbf81/v1/eleven_bowlingtv_1/lg_us/latest/main/hls/bowl.m3u8?wurl_channel=2195&wurl_name=BowlingTV&coppa=0&uid=[DEVICE_ID]&rdid=[IFA]&ifatype=[IFA_TYPE]&dnt=[LMT]&donotsell=[DNS]&isgdpr=[GDPR]&gdpr=[GDPR_CONSENT]&country=[COUNTRY]&pr=[US_PRIVACY]&appstoreurl=[APP_STOREURL]&bundleid=[APP_BUNDLE]&appname=[APP_NAME]&appversion=[APP_VERSION]&dt=[DEVICE_TYPE]&make=[DEVICE_MAKE]&model=[DEVICE_MODEL]&targetad=[TARGETAD_ALLOWED]&fck=[FCK]&viewsize=[VIEWSIZE]&nonce=[NONCE]"
   },
   {
-    "id": "ch-373",
+    "id": "ch-331",
     "name": "☆ Ubisoft tv 🇧🇷",
     "group": "Sports • Gaming 🎮",
     "logo": "https://images.pluto.tv/channels/64c815e8a1c6130008fef928/colorLogoPNG.png",
     "streamUrl": "https://ubl-ut-samsung.otteravision.com/ubl/ut/ut.m3u8"
   },
   {
-    "id": "ch-374",
+    "id": "ch-332",
     "name": "☆ Polidoro tv 🇧🇷",
     "group": "Sports • Gaming 🎮",
     "logo": "https://is.gd/AUJIUm",
     "streamUrl": "https://srv2.zcast.com.br/polidorotv/polidorotv/chunklist_w806455214.m3u8"
   },
   {
-    "id": "ch-375",
+    "id": "ch-333",
     "name": "☆ Pixel tv",
     "group": "Sports • Gaming 🎮",
     "logo": "https://images.pluto.tv/channels/66bb374ba4ee27000841a62c/colorLogoPNG.png",
     "streamUrl": "https://jmp2.uk/plu-66bb374ba4ee27000841a62c.m3u8"
   },
   {
-    "id": "ch-376",
+    "id": "ch-334",
     "name": "☆ ESports Max",
     "group": "Sports • Gaming 🎮",
     "logo": "https://esportsmax.tv/wp-content/uploads/2024/02/Esports-max-blanco.png",
     "streamUrl": "https://streamyes.alsolnet.com/esportsmax/live/playlist.m3u8"
   },
   {
-    "id": "ch-377",
+    "id": "ch-335",
     "name": "☆ Tv da Pesca 🇧🇷",
     "group": "Sports • Hunt & Fishing 🐗🎣",
     "logo": "https://github.com/iprtl/p1/raw/master/logo/tvdapesca.webp",
     "streamUrl": "https://isaocorp.cloudecast.com/tvdapesca/index.m3u8"
   },
   {
-    "id": "ch-378",
+    "id": "ch-336",
     "name": "☆ Golf Television",
     "group": "Sports • Golf 🏌️",
     "logo": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT4200001D8_20250513T010712SQUARE.png",
     "streamUrl": "https://jmp2.uk/stvp-IT4200001D8"
   },
   {
-    "id": "ch-379",
+    "id": "ch-337",
     "name": "☆ Golf Kingdom",
     "group": "Sports • Golf 🏌️",
     "logo": "https://raw.githubusercontent.com/iprtl/p1/master/logo/GolfKingtom.webp",
     "streamUrl": "https://30a-tv.com/feeds/vidaa/golf.m3u8"
   },
   {
-    "id": "ch-380",
+    "id": "ch-338",
     "name": "☆ Fuel tv 🇧🇷",
     "group": "Sports • Radical 🏄⛷️",
     "logo": "https://github.com/iprtl/p1/raw/master/logo/fuel.webp",
     "streamUrl": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01074-fueltv-fueltvbrpt-lgbr/playlist.m3u8"
   },
   {
-    "id": "ch-381",
+    "id": "ch-339",
     "name": "☆ World Poker Tour 🇧🇷",
     "group": "Sports • Poker 🃏",
     "logo": "https://images.pluto.tv/channels/63eba66da8b2270008436b10/colorLogoPNG.png",
     "streamUrl": "https://jmp2.uk/stvp-ATBD290000127"
   },
   {
-    "id": "ch-382",
+    "id": "ch-340",
     "name": "☆ Movie Music",
     "group": "Music • Diversos",
     "logo": "https://images.pluto.tv/channels/64240d00dbdaaa00085bc5e2/colorLogoPNG.png",
     "streamUrl": "https://jmp2.uk/plu-64240d00dbdaaa00085bc5e2.m3u8"
   },
   {
-    "id": "ch-383",
-    "name": "☆ TIKTOK Radio by Stingray",
-    "group": "Music • Diversos",
-    "logo": "https://radioink.com/wp-content/uploads/2021/05/Tik-Tok.jpg",
-    "streamUrl": "https://d1bl6tskrpq9ze.cloudfront.net/hls/master.m3u8?ads.xumo_channelId=99992529"
-  },
-  {
-    "id": "ch-384",
-    "name": "☆ Tomorroland Radio",
-    "group": "Music • Diversos",
-    "logo": "https://github.com/iprtl/p1/raw/master/logo/Tomorroland.webp",
-    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/OWR_INTERNATIONAL_ADP.m3u8"
-  },
-  {
-    "id": "ch-385",
+    "id": "ch-341",
     "name": "☆ Clubbing tv",
     "group": "Music • Diversos",
     "logo": "https://clubbingtv.com/wp-content/uploads/2019/11/Clubbing_TV_logoWhiteCircle-150x150-1.png",
     "streamUrl": "https://clubbingtv-lg-au.amagi.tv/playlist.m3u8"
   },
   {
-    "id": "ch-386",
+    "id": "ch-342",
     "name": "☆ Live Music",
     "group": "Music • Diversos",
     "logo": "https://images.pluto.tv/channels/5873fc21cad696fb37aa9054/colorLogoPNG.png",
     "streamUrl": "https://jmp2.uk/plu-5873fc21cad696fb37aa9054.m3u8"
   },
   {
-    "id": "ch-387",
+    "id": "ch-343",
     "name": "☆ Love Songs",
     "group": "Music • Diversos",
     "logo": "https://images.pluto.tv/channels/619b80acac5329000740c022/colorLogoPNG.png",
     "streamUrl": "https://jmp2.uk/plu-619b80acac5329000740c022.m3u8"
   },
   {
-    "id": "ch-388",
+    "id": "ch-344",
     "name": "☆ Mais Um",
     "group": "Music • Diversos",
     "logo": "https://imgur.com/wE5uBK7.png",
     "streamUrl": "https://stream.ichibantv.com:3230/stream/play.m3u8"
   },
   {
-    "id": "ch-389",
+    "id": "ch-345",
     "name": "☆ AfrobeatsTV",
     "group": "Music • Diversos",
     "logo": "https://github.com/iprtl/p1/raw/master/logo/Afrobeats.webp",
     "streamUrl": "https://stream.ecable.tv/afrobeats/tracks-v1a1/mono.m3u8?profile=inspirationLinks.m3u8"
   },
   {
-    "id": "ch-390",
+    "id": "ch-346",
     "name": "☆ Qwest Playlist",
     "group": "Music • Diversos",
     "logo": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBA2200001BV_20230614T005738SQUARE.png_20230614005738.png",
     "streamUrl": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00447-qwesttv-qwesttv-samsungbr/playlist.m3u8"
   },
   {
-    "id": "ch-391",
+    "id": "ch-347",
     "name": "☆ Stingray dJAZZ",
     "group": "Music • Diversos",
     "logo": "https://images.pluto.tv/channels/64240ccfaa2d690008dc4406/colorLogoPNG.png",
     "streamUrl": "https://jmp2.uk/plu-64240ccfaa2d690008dc4406.m3u8"
   },
   {
-    "id": "ch-392",
+    "id": "ch-348",
     "name": "☆ CMT Equal Play",
     "group": "Music • Diversos",
     "logo": "https://images.pluto.tv/channels/5f68f53eb1e5800007390bf8/colorLogoPNG.png",
     "streamUrl": "https://jmp2.uk/plu-5f68f53eb1e5800007390bf8.m3u8"
   },
   {
-    "id": "ch-393",
+    "id": "ch-349",
     "name": "☆ VH1 Classic",
     "group": "Music • Now & Vh1",
     "logo": "https://images.pluto.tv/channels/6076cd1df8576d0007c82193/colorLogoPNG.png",
     "streamUrl": "https://jmp2.uk/plu-6076cd1df8576d0007c82193.m3u8"
   },
   {
-    "id": "ch-394",
+    "id": "ch-350",
     "name": "☆ VH1+Back To 90'S",
     "group": "Music • Now & Vh1",
     "logo": "https://images.pluto.tv/channels/6552085aab05240008b05f6c/colorLogoPNG.png",
     "streamUrl": "https://jmp2.uk/plu-6552085aab05240008b05f6c.m3u8"
   },
   {
-    "id": "ch-395",
+    "id": "ch-351",
     "name": "☆ VH1+Rock",
     "group": "Music • Now & Vh1",
     "logo": "https://images.pluto.tv/channels/6447d08f2858cb0008b9957c/colorLogoPNG.png",
     "streamUrl": "https://jmp2.uk/plu-6447d08f2858cb0008b9957c.m3u8"
   },
   {
-    "id": "ch-396",
+    "id": "ch-352",
     "name": "☆ VH1+Music Legends",
     "group": "Music • Now & Vh1",
     "logo": "https://images.pluto.tv/channels/62e8cc10ca869f00078efca8/colorLogoPNG.png",
     "streamUrl": "https://jmp2.uk/plu-62e8cc10ca869f00078efca8.m3u8"
   },
   {
-    "id": "ch-397",
+    "id": "ch-353",
     "name": "☆ Vevo '70s & '80",
     "group": "Music • Vevo & Xite",
     "logo": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD1900009UD_20230614T010158SQUARE.png_20230614010159.png",
     "streamUrl": "https://d8ey2gcjuai15.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-t4dwcnavbvxsk/Vevo70sand80s_GB.m3u8"
   },
   {
-    "id": "ch-398",
+    "id": "ch-354",
     "name": "☆ Vevo Pop",
     "group": "Music • Vevo & Xite",
     "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC3600008WY_20241112T001858SQUARE.png",
     "streamUrl": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00056-vevotv-vevopopau-samsungau/playlist.m3u8"
   },
   {
-    "id": "ch-399",
+    "id": "ch-355",
     "name": "☆ Vevo 2k",
     "group": "Music • Vevo & Xite",
     "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB4400015F5_20241112T001845SQUARE.png",
     "streamUrl": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00056-vevotv-vevo2kau-samsungau/playlist.m3u8"
   },
   {
-    "id": "ch-400",
+    "id": "ch-356",
     "name": "☆ Vevo Country",
     "group": "Music • Vevo & Xite",
     "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC3600001RQ_20241112T001851SQUARE.png",
     "streamUrl": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00056-vevotv-vevocountryau-samsungau/playlist.m3u8"
   },
   {
-    "id": "ch-401",
+    "id": "ch-357",
     "name": "☆ XITE Celebrates",
     "group": "Music • Vevo & Xite",
     "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD350003932_20250121T101057SQUARE.png",
     "streamUrl": "https://dt1s4l2cmiyit.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-fcwpee1h7t5cs/XITE_Celebrates.m3u8"
   },
   {
-    "id": "ch-402",
+    "id": "ch-358",
     "name": "☆ XITE Hits",
     "group": "Music • Vevo & Xite",
     "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3300004RH_20241105T024203SQUARE.png",
     "streamUrl": "https://xite-hitsuk-lg.amagi.tv/playlist.m3u8"
   },
   {
-    "id": "ch-403",
+    "id": "ch-359",
     "name": "☆ XITE Rock X Metal",
     "group": "Music • Vevo & Xite",
     "logo": "https://images.pluto.tv/channels/623a1b5188ecdc0007c9ef5a/colorLogoPNG.png",
     "streamUrl": "https://jmp2.uk/plu-623a1b5188ecdc0007c9ef5a.m3u8"
   },
   {
-    "id": "ch-404",
+    "id": "ch-360",
     "name": "☆ MegaBox",
     "group": "Music • Diversos",
     "logo": "https://i.imgur.com/JqaW7Ei.png",
     "streamUrl": "https://hdbox.chunklistv.com/live?stream=megabox"
   },
   {
-    "id": "ch-405",
+    "id": "ch-361",
     "name": "☆ Cool Summer Channel",
     "group": "Music • Diversos",
     "logo": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB2500002K0_20240819T052918SQUARE.png",
     "streamUrl": "https://d2hzqddebd4oer.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-468m04kfpf5n7/csts.m3u8"
   },
   {
-    "id": "ch-406",
+    "id": "ch-362",
     "name": "☆ Top Mix tv Pop",
     "group": "Music • Diversos",
     "logo": "https://topmixtv.com.br/wp-content/uploads/2025/02/logomarca.png",
     "streamUrl": "https://video03.logicahost.com.br/canal03/canal03/playlist.m3u8"
   },
   {
-    "id": "ch-407",
+    "id": "ch-363",
     "name": "☆ Vintage tv 🇧🇷",
     "group": "Music • Diversos",
     "logo": "https://static.wixstatic.com/media/f98147_744ad37f90864e429604d647d396ef83~mv2.png",
     "streamUrl": "https://video01.kshost.com.br/rogerio7271/rogerio7271/playlist.m3u8"
   },
   {
-    "id": "ch-408",
+    "id": "ch-364",
     "name": "☆ MTV Love Music",
     "group": "Music • MTV",
     "logo": "https://images.pluto.tv/channels/638f2d9aa530b200072ec8ef/colorLogoPNG.png",
     "streamUrl": "https://jmp2.uk/plu-638f2d9aa530b200072ec8ef.m3u8"
   },
   {
-    "id": "ch-409",
+    "id": "ch-365",
     "name": "☆ MTV Unplugged",
     "group": "Music • MTV",
     "logo": "https://images.pluto.tv/channels/5f98471110cca20007d39f76/colorLogoPNG.png",
     "streamUrl": "https://jmp2.uk/plu-5f98471110cca20007d39f76.m3u8"
   },
   {
-    "id": "ch-410",
+    "id": "ch-366",
     "name": "☆ Trace Latina",
     "group": "Music • Trace & Deluxe",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/TRACE_Latina_Logo.png/2000px-TRACE_Latina_Logo.png",
     "streamUrl": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01131-tracetv-tracelatinaes-samsungspain/playlist.m3u8"
   },
   {
-    "id": "ch-411",
+    "id": "ch-367",
     "name": "☆ Trace Brasil 🇧🇷",
     "group": "Music • Trace & Deluxe",
     "logo": "https://github.com/iprtl/p1/raw/master/logo/tracebrazuca.webp",
     "streamUrl": "https://d25usgadhphvwi.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ccfvktkgxl5qg/playlist.m3u8"
   },
   {
-    "id": "ch-412",
+    "id": "ch-368",
     "name": "☆ Trace Urban²",
     "group": "Music • Trace & Deluxe",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Traceurban2022.png",
     "streamUrl": "https://lightning-traceurban-samsungau.amagi.tv/playlist1080p.m3u8"
   },
   {
-    "id": "ch-413",
+    "id": "ch-369",
     "name": "☆ TV 538",
     "group": "Music • Diversos",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7a/TV-538-RGB_new.png",
     "streamUrl": "https://radio538.prd1.talpatvcdn.nl/22e9bbf9616547d7bc162c993009c533/index_1.m3u8"
   },
   {
-    "id": "ch-414",
+    "id": "ch-370",
     "name": "☆ Rockola tv",
     "group": "Music • Diversos",
     "logo": "https://www.freecast.com/_next/image?url=https%3A%2F%2Fd3e3bui7xn67l.cloudfront.net%2Fcms_media%2Fmedia%2Flive%2Fchannel%2F0a1d51ea-22ca-42cd-8afb-de4a2db1116c-1678921793.94842.256x256.jpg&w=384&q=75",
     "streamUrl": "https://e46fa4a445464f8a9150fa7d510eb85c.mediatailor.us-west-2.amazonaws.com/v1/manifest/2d2d0d97b0e548f025b2598a69b55bf30337aa0e/npp/f1e41991-852e-4879-9352-73da780e9230/2.m3u8"
   },
   {
-    "id": "ch-415",
+    "id": "ch-371",
     "name": "☆ Stingray Easy Listening",
     "group": "Music • Stingray",
     "logo": "https://www.cxtv.com.br/img/Tvs/Logo/webp-l/9f8a5d1175a0cd11b6d54498a15dceee.webp",
     "streamUrl": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=3021"
   },
   {
-    "id": "ch-416",
+    "id": "ch-372",
     "name": "☆ Stingray Rock Alternative",
     "group": "Music • Stingray",
     "logo": "https://www.cxtv.com.br/img/Tvs/Logo/webp-l/cee6c0652aa03a78f32bb57b366056fd.webp",
     "streamUrl": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=3026"
   },
   {
-    "id": "ch-417",
+    "id": "ch-373",
     "name": "☆ Stingray Hit List",
     "group": "Music • Stingray",
     "logo": "https://www.cxtv.com.br/img/Tvs/Logo/webp-l/001b906dca037ab144566908216de346.webp",
     "streamUrl": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=1388"
   },
   {
-    "id": "ch-418",
+    "id": "ch-374",
     "name": "☆ Stingray Smooth Jazz",
     "group": "Music • Stingray",
     "logo": "https://www.cxtv.com.br/img/Tvs/Logo/webp-l/923d780c4165f6cbec21aacb1ef916f0.webp",
     "streamUrl": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=3022"
   },
   {
-    "id": "ch-419",
+    "id": "ch-375",
     "name": "☆ Stingray Y2K",
     "group": "Music • Stingray",
     "logo": "https://www.cxtv.com.br/img/Tvs/Logo/webp-l/0f1b6d936b7f3fbe210fb3d2b95ea5ef.webp",
     "streamUrl": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=3020"
   },
   {
-    "id": "ch-420",
+    "id": "ch-376",
     "name": "☆ Stingray Today's K-Pop",
     "group": "Music • Stingray",
     "logo": "https://www.cxtv.com.br/img/Tvs/Logo/webp-l/0f1b6d936b7f3fbe210fb3d2b95ea5ef.webp",
     "streamUrl": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=3018"
   },
   {
-    "id": "ch-421",
+    "id": "ch-377",
     "name": "☆ Stingray Nothing' But 90s",
     "group": "Music • Stingray",
     "logo": "https://www.cxtv.com.br/img/Tvs/Logo/webp-l/958d16460d189722978074cb0bb2ed59.webp",
     "streamUrl": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=3028"
   },
   {
-    "id": "ch-422",
+    "id": "ch-378",
     "name": "☆ Stingray Remember 80s",
     "group": "Music • Stingray",
     "logo": "https://www.cxtv.com.br/img/Tvs/Logo/webp-l/219e8c232cd51df76182fee9cf2e90ba.webp",
     "streamUrl": "https://d1imh73yrie9zu.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-tqikpnjgwyvj8/manifest/ose-128ads-montreal/samsungtvplus/master.m3u8"
   },
   {
-    "id": "ch-423",
+    "id": "ch-379",
     "name": "☆ Stingray Flashback 70s",
     "group": "Music • Stingray",
     "logo": "https://www.cxtv.com.br/img/Tvs/Logo/webp-l/cf0af6164398752328af22b594924e58.webp",
     "streamUrl": "https://d30hccj9v28bt6.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-jp7qdac3e1wzj/manifest/ose-115ads-montreal/samsungtvplus/master.m3u8"
   },
   {
-    "id": "ch-424",
+    "id": "ch-380",
     "name": "☆ Stingray Classic Rock",
     "group": "Music • Stingray",
     "logo": "https://www.cxtv.com.br/img/Tvs/Logo/webp-l/306ee143a9a210ab3a9b1247c90c8265.webp",
     "streamUrl": "https://d1gblbamdkwl5k.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-rlxixsm66esse/manifest/ose-101ads-montreal/samsungtvplus/master.m3u8"
   },
   {
-    "id": "ch-425",
+    "id": "ch-381",
     "name": "☆ Stingray Éxitos del Momento",
     "group": "Music • Stingray",
     "logo": "https://www.cxtv.com.br/img/Tvs/Logo/webp-l/823131838a2ee1be8616ae7d28cb8911.webp",
     "streamUrl": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=3025"
   },
   {
-    "id": "ch-426",
+    "id": "ch-382",
     "name": "☆ Stingray Pop Adult",
     "group": "Music • Stingray",
     "logo": "https://www.cxtv.com.br/img/Tvs/Logo/webp-l/c9274ced11768aab7ef96be3a7875727.webp",
     "streamUrl": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=3023"
   },
   {
-    "id": "ch-427",
+    "id": "ch-383",
     "name": "☆ Stingray Greatest Hits",
     "group": "Music • Stingray",
     "logo": "https://www.cxtv.com.br/img/Tvs/Logo/webp-l/7a35d3883fddfac7310b8496d0bf982a.webp",
     "streamUrl": "https://d2ijgfgrz03rvu.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-l5gypvhxzqytm/manifest/ose-155ads-montreal/samsungtvplus/master.m3u8"
   },
   {
-    "id": "ch-428",
+    "id": "ch-384",
     "name": "☆ Stingray Hot Country",
     "group": "Music • Stingray",
     "logo": "https://www.cxtv.com.br/img/Tvs/Logo/webp-l/2404b95366187c0bddde1972e40336e6.webp",
     "streamUrl": "https://d33l69tlyxnc6j.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-o1stobjejuzbx/manifest/ose-108ads-montreal/samsungtvplus/master.m3u8"
   },
   {
-    "id": "ch-429",
+    "id": "ch-385",
     "name": "CNNPT (1280x720 · 1394 kbps)",
     "group": "iprtl",
     "streamUrl": "https://video-auth6.iol.pt/edge_servers/cnn-720p/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8yNi8yMDI1IDEyOjEwOjQ5IFBNJmhhc2hfdmFsdWU9SU9SVkkwSStSTjlHdUFlOTBNUHl4dz09JnZhbGlkbWludXRlcz0xNDQwJmlkPWQxYThhYjNiLWQyMGQtNGIxYi1hODViLWZmYjQwYzg2ZGY0Yw=="
   },
   {
-    "id": "ch-430",
+    "id": "ch-386",
     "name": "CNNPT (854x480 · 872 kbps)",
     "group": "iprtl",
     "streamUrl": "https://video-auth6.iol.pt/edge_servers/cnn-480p/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8yNi8yMDI1IDEyOjEwOjQ5IFBNJmhhc2hfdmFsdWU9SU9SVkkwSStSTjlHdUFlOTBNUHl4dz09JnZhbGlkbWludXRlcz0xNDQwJmlkPWQxYThhYjNiLWQyMGQtNGIxYi1hODViLWZmYjQwYzg2ZGY0Yw=="
   },
   {
-    "id": "ch-431",
+    "id": "ch-387",
     "name": "CNNPT (640x360 · 577 kbps)",
     "group": "iprtl",
     "streamUrl": "https://video-auth6.iol.pt/edge_servers/cnn-360p/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8yNi8yMDI1IDEyOjEwOjQ5IFBNJmhhc2hfdmFsdWU9SU9SVkkwSStSTjlHdUFlOTBNUHl4dz09JnZhbGlkbWludXRlcz0xNDQwJmlkPWQxYThhYjNiLWQyMGQtNGIxYi1hODViLWZmYjQwYzg2ZGY0Yw=="
   },
   {
-    "id": "ch-432",
+    "id": "ch-388",
     "name": "CNNPT (426x240 · 347 kbps)",
     "group": "iprtl",
     "streamUrl": "https://video-auth6.iol.pt/edge_servers/cnn-240p/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8yNi8yMDI1IDEyOjEwOjQ5IFBNJmhhc2hfdmFsdWU9SU9SVkkwSStSTjlHdUFlOTBNUHl4dz09JnZhbGlkbWludXRlcz0xNDQwJmlkPWQxYThhYjNiLWQyMGQtNGIxYi1hODViLWZmYjQwYzg2ZGY0Yw=="
   },
   {
-    "id": "ch-433",
+    "id": "ch-389",
     "name": "A&E",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/AeE_BRASIL_TK/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-434",
+    "id": "ch-390",
     "name": "AMC",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/AMC_BRASIL_TK/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-435",
+    "id": "ch-391",
     "name": "AXN",
     "group": "NXPLAY TV",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/AXN_TK/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-436",
+    "id": "ch-392",
     "name": "CINEBRASIL TV",
     "group": "NXPLAY TV",
+    "logo": "https://i.imgur.com/n4qPuHG.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/Cinebrasil/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-437",
+    "id": "ch-393",
     "name": "FILM&ARTS",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/Film_Arts_Brasil_TK/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-438",
+    "id": "ch-394",
     "name": "PRIME BOX",
     "group": "NXPLAY TV",
     "streamUrl": "http://cdn-5.nxplay.com.br/PRIME_HD/mono.m3u8"
   },
   {
-    "id": "ch-439",
+    "id": "ch-395",
     "name": "SONY",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/SONY_CHANNEL/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-440",
+    "id": "ch-396",
     "name": "SONY MOVIES",
     "group": "NXPLAY TV",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Sony_Movies_Logo.svg/500px-Sony_Movies_Logo.svg.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/SONY_MOVIES/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-441",
+    "id": "ch-397",
     "name": "SPACE",
     "group": "NXPLAY TV",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/SpaceLogo.svg/960px-SpaceLogo.svg.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/SPACE_TK/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-442",
+    "id": "ch-398",
     "name": "TNT",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/TNT_TK/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-443",
+    "id": "ch-399",
     "name": "TNT NOVELAS",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/TNT_NOVELAS/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-444",
+    "id": "ch-400",
     "name": "CANAL K",
     "group": "NXPLAY TV",
+    "logo": "https://i.imgur.com/s0INQ61.jpeg",
     "streamUrl": "https://cdn-5.nxplay.com.br/cheftv1/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-445",
+    "id": "ch-401",
     "name": "DISCOVERY H&H",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/DISCOVERY_HH_NX/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-446",
+    "id": "ch-402",
     "name": "DISCOVERY TURBO",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/DISCOVERY_TURBO_NX/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-447",
+    "id": "ch-403",
     "name": "FASHION TV",
     "group": "NXPLAY TV",
+    "logo": "https://i.imgur.com/Bk7W39G.png",
     "streamUrl": "http://cdn-4.nxplay.com.br/FASHION_HD/mono.m3u8"
   },
   {
-    "id": "ch-448",
+    "id": "ch-404",
     "name": "FOOD NETWORK",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/FOOD_NETWORK_NX/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-449",
+    "id": "ch-405",
     "name": "HGTV",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/HGTV_BR_NX/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-450",
+    "id": "ch-406",
     "name": "LIFETIME",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/LIFE_TIME_TK/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-451",
+    "id": "ch-407",
     "name": "MUSIC BOX",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/MUSIC_HD/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-452",
+    "id": "ch-408",
     "name": "TLC",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/TLC_BR_NX/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-453",
+    "id": "ch-409",
     "name": "TRACE BRASIL",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/TRACE_BRAZUCA/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-454",
+    "id": "ch-410",
     "name": "TRAVEL BOX",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/TRAVEL_HD/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-455",
+    "id": "ch-411",
     "name": "WOOHOO",
     "group": "NXPLAY TV",
+    "logo": "https://i.imgur.com/me622pa.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/WOOHOO_TK/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-456",
+    "id": "ch-412",
     "name": "WOOHOO SURF",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/WOOHOO_FAST/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-457",
+    "id": "ch-413",
     "name": "CANAL DO BOI",
     "group": "NXPLAY TV",
+    "logo": "https://i.imgur.com/pVM5MhS.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/CANAL_DO_BOI_TK/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-458",
+    "id": "ch-414",
     "name": "RIT",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/RIT_TV/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-459",
+    "id": "ch-415",
     "name": "FISH TV",
     "group": "NXPLAY TV",
+    "logo": "https://www.fishtv.com/public/site/images/logos/fishtv.svg",
     "streamUrl": "https://cdn-5.nxplay.com.br/FISH_TV_NX_TK/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-460",
+    "id": "ch-416",
     "name": "BAND NEWS",
     "group": "NXPLAY TV",
+    "logo": "https://i.ibb.co/0jVZBFp/u8ya-iw-R-400x400.jpg",
     "streamUrl": "https://cdn-5.nxplay.com.br/BAND_NEWS_TK/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-461",
+    "id": "ch-417",
     "name": "ANIMAL PLANET",
     "group": "NXPLAY TV",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/ANIMAL_PLANET_NX/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-462",
+    "id": "ch-418",
     "name": "DISCOVERY CHANNEL",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/DISCOVERY_CHANNEL_NX/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-463",
+    "id": "ch-419",
     "name": "DISCOVERY SCIENCE",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/DISCOVERY_SCIENCE_NX/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-464",
+    "id": "ch-420",
     "name": "DISCOVERY THEATER",
     "group": "NXPLAY TV",
+    "logo": "https://i.imgur.com/T07gvEb.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/DISCOVERY_THEATER_NX/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-465",
+    "id": "ch-421",
     "name": "DISCOVERY WORLD",
     "group": "NXPLAY TV",
+    "logo": "https://i.imgur.com/yNFmUkE.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/DISCOVERY_WORLD_NX/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-466",
+    "id": "ch-422",
     "name": "DISCOVERY INVESTIGAÇÃO",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/DISCOVERY_ID_NX/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-467",
+    "id": "ch-423",
     "name": "HISTORY",
     "group": "NXPLAY TV",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/HISTORY_TK/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-468",
+    "id": "ch-424",
     "name": "HISTORY 2",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/HISTORY_2_TK/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-469",
+    "id": "ch-425",
     "name": "SBT",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/SBT_HD_TK/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-470",
+    "id": "ch-426",
     "name": "BAND",
     "group": "NXPLAY TV",
+    "logo": "https://i.imgur.com/1r5T6Pw.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/BAND_HD_PFZ_NX/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-471",
+    "id": "ch-427",
     "name": "RECORD SP",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/RECORD_PAULISTA_PFZ_NXPLAY_01/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-472",
+    "id": "ch-428",
     "name": "COM BRASIL",
     "group": "NXPLAY TV",
+    "logo": "https://i.imgur.com/GrjGwKM.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/COM_BRASIL/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-473",
+    "id": "ch-429",
     "name": "CANÇÃO NOVA",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/CANCAO_NOVA_TK/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-474",
+    "id": "ch-430",
     "name": "CARTOON NETWORK",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/CARTOON_NETWORK_TK/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-475",
+    "id": "ch-431",
     "name": "CARTOONITO",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/CARTOONITO_TK/index.m3u8"
   },
   {
-    "id": "ch-476",
+    "id": "ch-432",
     "name": "DISCOVERY KIDS",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/DISCOVERY_KIDS_NX/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-477",
+    "id": "ch-433",
     "name": "TOONCAST",
     "group": "NXPLAY TV",
+    "logo": "https://i.imgur.com/3yXRbQy.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/TOONCAST_TK/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-478",
+    "id": "ch-434",
     "name": "ZOOMOO",
     "group": "NXPLAY TV",
+    "logo": "https://i.imgur.com/ciTJrnl.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/ZOOMOO_HD_NX_TK/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-479",
+    "id": "ch-435",
     "name": "GLOBO SP",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/GLOBO_SP_TK/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-480",
+    "id": "ch-436",
     "name": "TV TEM GLOBO",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/TV_TEM_TK/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-481",
+    "id": "ch-437",
     "name": "AGROMAIS",
     "group": "NXPLAY TV",
+    "logo": "https://i.imgur.com/sFcOZeo.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/AGROMAIS_HD/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-482",
+    "id": "ch-438",
     "name": "E-MUSIC BLACK",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/MEGA_TK/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-483",
+    "id": "ch-439",
     "name": "E-MUSIC HITS",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/HITTS_TK/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-484",
+    "id": "ch-440",
     "name": "E-MUSIC CLASSICS",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/CLASSICHITS_TK/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-485",
+    "id": "ch-441",
     "name": "E-MUSIC LATINO",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/AMERICOLATINO_TK/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-486",
+    "id": "ch-442",
     "name": "E-MUSIC POP",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/Cult_TK/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-487",
+    "id": "ch-443",
     "name": "E-MUSIC PARTY",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/BRAmusic_TK/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-488",
+    "id": "ch-444",
     "name": "E-MUSIC ROCK",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/SCH_TK/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-489",
+    "id": "ch-445",
     "name": "RECORD NEWS",
     "group": "NXPLAY TV",
+    "logo": "https://i.imgur.com/HZDRG0K.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/RECORD_NEWS/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-490",
+    "id": "ch-446",
     "name": "TV BRASIL",
     "group": "NXPLAY TV",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/TvBrasil2023.png/960px-TvBrasil2023.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/TV_BRASIL_NX_/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-491",
+    "id": "ch-447",
     "name": "CANAL GOV",
     "group": "NXPLAY TV",
+    "logo": "https://i.imgur.com/rHPY0Yv.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/TV_BRASIL_2/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-492",
+    "id": "ch-448",
     "name": "TV SENADO",
     "group": "NXPLAY TV",
+    "logo": "https://i.imgur.com/duy6waL.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/TV_SENADO/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-493",
+    "id": "ch-449",
     "name": "TV JUSTIÇA",
     "group": "NXPLAY TV",
+    "logo": "https://i.imgur.com/rOQKiMO.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/TV_JUSTICA/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-494",
+    "id": "ch-450",
     "name": "TV CÂMARA",
     "group": "NXPLAY TV",
+    "logo": "https://i.imgur.com/Sdou1Ab.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/TV_CAMARA/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-495",
+    "id": "ch-451",
     "name": "CANAL EDUCAÇÃO",
     "group": "NXPLAY TV",
+    "logo": "https://i.imgur.com/OOB7nrS.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/TV_ESCOLA/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-496",
+    "id": "ch-452",
     "name": "SESC TV",
     "group": "NXPLAY TV",
+    "logo": "https://i.imgur.com/Mu8O6CV.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/SESC_TV/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-497",
+    "id": "ch-453",
     "name": "MASTER TV - UNIVESP TV",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/MASTER_TV/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-498",
+    "id": "ch-454",
     "name": "CATVE - TV CULTURA",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/CATVE/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-499",
+    "id": "ch-455",
     "name": "CATVE FM",
     "group": "NXPLAY TV",
+    "logo": "https://i.imgur.com/w89yw36.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/CATVE_2/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-500",
+    "id": "ch-456",
     "name": "ARTE 1",
     "group": "NXPLAY TV",
+    "logo": "https://i.imgur.com/Ivnk7A6.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/ARTE1/tracks-v1a1/index.m3u8"
   },
   {
-    "id": "ch-501",
+    "id": "ch-457",
     "name": "BAND SPORTS",
     "group": "NXPLAY TV",
+    "logo": "https://i.imgur.com/EuPvzJe.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/BAND_SPORTS/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-502",
+    "id": "ch-458",
     "name": "ESPN",
     "group": "NXPLAY TV",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/ESPN/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-503",
+    "id": "ch-459",
     "name": "ESPN 2",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/ESPN_2/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-504",
+    "id": "ch-460",
     "name": "ESPN 3",
     "group": "NXPLAY TV",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/ESPN3_Logo.png/960px-ESPN3_Logo.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/ESPN_3/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-505",
+    "id": "ch-461",
     "name": "ESPN 4",
     "group": "NXPLAY TV",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/ESPN_4_logo.svg/960px-ESPN_4_logo.svg.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/ESPN_4/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-506",
+    "id": "ch-462",
     "name": "ESPN  6",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/ESPN_EXTRA/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-507",
+    "id": "ch-463",
     "name": "DE CRIANÇA PARA CRIANÇA",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/dcpc/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-508",
+    "id": "ch-464",
     "name": "NATIONAL SPORTS CHANNEL",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/PLAYOUT_02_NSC/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-509",
+    "id": "ch-465",
     "name": "TRIP BRASIL",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/TRIP_BRASIL_FAST/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-510",
+    "id": "ch-466",
     "name": "PLAY TV",
     "group": "NXPLAY TV",
+    "logo": "https://i.imgur.com/Ikrj3lk.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/PLAY_TV_NXPLAY/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-511",
+    "id": "ch-467",
     "name": "TV MILAGRO",
     "group": "NXPLAY TV",
+    "logo": "https://i.imgur.com/q8AvY9E.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/TV_MILAGRO/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-512",
+    "id": "ch-468",
     "name": "SÓ NACIONAL",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/europaplay/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-513",
+    "id": "ch-469",
     "name": "HTO",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/HTO_TV/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-514",
+    "id": "ch-470",
     "name": "HTO FILMES",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/HTO_Filmes/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-515",
+    "id": "ch-471",
     "name": "HTO KIDS",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/HTO_KIDS/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-516",
+    "id": "ch-472",
     "name": "HTO DOCS",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/HTO_DOCS/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-517",
+    "id": "ch-473",
     "name": "HTO NITRO",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/HTO_NITRO/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-518",
+    "id": "ch-474",
     "name": "CNN BRASIL",
     "group": "NXPLAY TV",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/CNN_Brasil.svg/960px-CNN_Brasil.svg.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/CNN_BR/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-519",
+    "id": "ch-475",
     "name": "CNN BRASIL SD",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/CNN_FAST/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-520",
+    "id": "ch-476",
     "name": "FUEL TV",
     "group": "NXPLAY TV",
+    "logo": "https://i.imgur.com/I8mviBy.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/FUEL_TV_BROADPEAK/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-521",
+    "id": "ch-477",
     "name": "H! MAIS",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/PLAYOUT_02_HMAIS/mono.m3u8"
   },
   {
-    "id": "ch-522",
+    "id": "ch-478",
     "name": "REDE VIDA",
     "group": "NXPLAY TV",
+    "logo": "https://i.imgur.com/mP1qfp2.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/REDE_VIDA/tracks-v1a1/index.m3u8"
   },
   {
-    "id": "ch-523",
+    "id": "ch-479",
     "name": "TV APARECIDA",
     "group": "NXPLAY TV",
+    "logo": "https://i.imgur.com/kxrja0X.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/TV_APARECIDA/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-524",
+    "id": "ch-480",
     "name": "FUTURA",
     "group": "NXPLAY TV",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Canal_Futura.png/960px-Canal_Futura.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/FUTURA_NX/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-525",
+    "id": "ch-481",
     "name": "HALLO MOVIES",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/HALLOMOVIES/tracks-v3a1/mono.m3u8"
   },
   {
-    "id": "ch-526",
+    "id": "ch-482",
     "name": "HALLO CLASSIC",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/HALLOCLASSIC/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-527",
+    "id": "ch-483",
     "name": "HALLO MUSIC",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/HALLOMUSIC/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-528",
+    "id": "ch-484",
     "name": "HALLO SERIES",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/HALLOSERIES/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-529",
+    "id": "ch-485",
     "name": "HALLO ANIME",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/HALLOANIME/mono.m3u8"
   },
   {
-    "id": "ch-530",
+    "id": "ch-486",
     "name": "HALLO DOC",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/HALLODOC/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-531",
+    "id": "ch-487",
     "name": "UNIQUE TV",
     "group": "NXPLAY TV",
+    "logo": "https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/UNIQUE-TV-logo_2000_X_1125_Transpharent.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/URBAN_TV/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-532",
+    "id": "ch-488",
     "name": "UNIQUE SPORTS",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/URBAN_SPORTS/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-533",
+    "id": "ch-489",
     "name": "URBAN TRAVEL",
     "group": "NXPLAY TV",
+    "logo": "https://i.imgur.com/ST24ALh.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/URBAN_TRAVEL/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-534",
+    "id": "ch-490",
     "name": "URBAN RETRO",
     "group": "NXPLAY TV",
+    "logo": "https://i.imgur.com/1uyv9vn.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/URBAN_RETRO/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-535",
+    "id": "ch-491",
     "name": "24H NEWS",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/24H_NEWS/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-536",
+    "id": "ch-492",
     "name": "CLUBINHO FUN",
     "group": "NXPLAY TV",
+    "logo": "https://i.imgur.com/YTKd8qL.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/CLUBINHO/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-537",
+    "id": "ch-493",
     "name": "HELLO TV",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/HELLO/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-538",
+    "id": "ch-494",
     "name": "INSPIRE",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/INSPIRE/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-539",
+    "id": "ch-495",
     "name": "YES LIFE",
     "group": "NXPLAY TV",
+    "logo": "https://i.imgur.com/sZHYWRm.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/YES_LIFE/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-540",
+    "id": "ch-496",
     "name": "BORA FILMES",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/BORA_FILMES/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-541",
+    "id": "ch-497",
     "name": "ENTRETENDO",
     "group": "NXPLAY TV",
+    "logo": "https://www.lyngsat.com/logo/tv/ee/entretendo-br.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/ENTRETENDO/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-542",
+    "id": "ch-498",
     "name": "TV PROMESSAS",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/PROMESSAS/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-543",
+    "id": "ch-499",
     "name": "UP CHANNEL",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/UPCHANNEL/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-544",
+    "id": "ch-500",
     "name": "SABOR & ARTE",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/SABOR_E_ARTE/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-545",
+    "id": "ch-501",
     "name": "PIX TV",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/PIX_TV/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-546",
+    "id": "ch-502",
     "name": "TV VERDADE",
     "group": "NXPLAY TV",
+    "logo": "https://i.imgur.com/FMakyzR.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/TV_VERDADE/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-547",
+    "id": "ch-503",
     "name": "SBN GLOBAL",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/SBN/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-548",
+    "id": "ch-504",
     "name": "EURONEWS ESPANHOL",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/EURONEWS/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-549",
+    "id": "ch-505",
     "name": "NEW BRASIL",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/NEW_BRASIL/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-550",
+    "id": "ch-506",
     "name": "TV BRUSQUE",
     "group": "NXPLAY TV",
+    "logo": "https://i.imgur.com/J2EAZPS.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/TV_BRUSQUE/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-551",
+    "id": "ch-507",
     "name": "WARNER CHANNEL",
     "group": "NXPLAY TV",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Warner_TV_logo.svg/960px-Warner_TV_logo.svg.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/WARNER_CHANNEL/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-552",
+    "id": "ch-508",
     "name": "VIVAX TV",
     "group": "NXPLAY TV",
+    "logo": "https://www.lyngsat.com/logo/tv/vv/vivax-tv-br.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/VIVAX/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-553",
+    "id": "ch-509",
     "name": "REDE SUPER",
     "group": "NXPLAY TV",
+    "logo": "https://i.imgur.com/X75qTEm.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/REDE_SUPER/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-554",
+    "id": "ch-510",
     "name": "TV AVIVANDO NAÇÕES",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/AVIVANDO_NACOES/mono.m3u8"
   },
   {
-    "id": "ch-555",
+    "id": "ch-511",
     "name": "KISS TV",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/KISS_TV/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-556",
+    "id": "ch-512",
     "name": "TV GRAMADO",
     "group": "NXPLAY TV",
+    "logo": "https://i.imgur.com/5558bMI.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/TV_GRAMADO/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-557",
+    "id": "ch-513",
     "name": "REDE RECON",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/REDE_RECON/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-558",
+    "id": "ch-514",
     "name": "NGT",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/REDE_NGT/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-559",
+    "id": "ch-515",
     "name": "DREAM WORKS",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/DREAMWORKS/mono.m3u8"
   },
   {
-    "id": "ch-560",
+    "id": "ch-516",
     "name": "MASPER TV",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/MASPER_TV/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-561",
+    "id": "ch-517",
     "name": "AGRO CANAL",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/AGRO_CANAL/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-562",
+    "id": "ch-518",
     "name": "TV EVANGELIZAR",
     "group": "NXPLAY TV",
+    "logo": "https://i.imgur.com/IrYR7Kp.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/EVANGELIZAR/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-563",
+    "id": "ch-519",
     "name": "TERRAVIVA",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/TERRAVIVA/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-564",
+    "id": "ch-520",
     "name": "AWTV",
     "group": "NXPLAY TV",
+    "logo": "https://i.imgur.com/2tdMyef.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/AWTV/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-565",
+    "id": "ch-521",
     "name": "TV PLANALTO NORTE",
     "group": "NXPLAY TV",
     "logo": "https://uniquetv.com.br/canais/planalto.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/TV_PLANALTO_NORTE/mono.m3u8"
   },
   {
-    "id": "ch-566",
+    "id": "ch-522",
     "name": "TCM",
     "group": "NXPLAY TV",
     "logo": "https://tinyurl.com/22ztcolu",
     "streamUrl": "https://cdn-5.nxplay.com.br/TCM_TK/tracks-v2a1/mono.m3u8"
   },
   {
-    "id": "ch-567",
+    "id": "ch-523",
     "name": "REDE METRÓPOLE",
     "group": "NXPLAY TV",
+    "logo": "https://i.imgur.com/qJx9Zvd.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/METROPOLE_TK//mono.m3u8"
   },
   {
-    "id": "ch-568",
+    "id": "ch-524",
     "name": "LOADING",
     "group": "NXPLAY TV",
+    "logo": "https://i.imgur.com/R0aflu1.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/LOADING/index.m3u8"
   },
   {
-    "id": "ch-569",
+    "id": "ch-525",
     "name": "AGRO BRASIL TV",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/AGROBRASIL_TV/index.m3u8"
   },
   {
-    "id": "ch-570",
+    "id": "ch-526",
     "name": "TV TROPICAL RECORDTV",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/TV_TROPICAL_TK/index.m3u8"
   },
   {
-    "id": "ch-571",
+    "id": "ch-527",
     "name": "PARAFERNARIA",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/parafernaria/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-572",
+    "id": "ch-528",
     "name": "SÓ PLAY AÇÃO",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/soplay_acao/mono.m3u8"
   },
   {
-    "id": "ch-573",
+    "id": "ch-529",
     "name": "LEO E LULLY",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/LEO_E_LULLY/mono.m3u8"
   },
   {
-    "id": "ch-574",
+    "id": "ch-530",
     "name": "ASTRAL TV",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/TV_ASTRAL/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-575",
+    "id": "ch-531",
     "name": "E!",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/E_BRASIL/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-576",
+    "id": "ch-532",
     "name": "JOVEM PAN NEWS",
     "group": "NXPLAY TV",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Jovem_Pan_logo_2018.svg/960px-Jovem_Pan_logo_2018.svg.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/JovemPan/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-577",
+    "id": "ch-533",
     "name": "TRACE SPORT",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/TRACE_SPORT/index.m3u8"
   },
   {
-    "id": "ch-578",
+    "id": "ch-534",
     "name": "TV RA TIM BUM",
     "group": "NXPLAY TV",
+    "logo": "https://i.imgur.com/JIQwz0w.png",
     "streamUrl": "https://cdn-5.nxplay.com.br/TV_RA_TIM_BUM/index.m3u8"
   },
   {
-    "id": "ch-579",
+    "id": "ch-535",
     "name": "NA TELA TV",
     "group": "NXPLAY TV",
     "streamUrl": "https://cdn-5.nxplay.com.br/NA_TELA_TV/tracks-v1a1/mono.m3u8"
   },
   {
-    "id": "ch-580",
+    "id": "ch-536",
     "name": "TVI (1280x720 · 1973 kbps)",
     "group": "iprtl",
-    "streamUrl": "https://video-auth6.iol.pt/edge_servers/tvi-720_passthrough/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8yNi8yMDI1IDEyOjEwOjQ4IFBNJmhhc2hfdmFsdWU9Nk5tRGhMZkdVRDYrZWxzdlkyVmN0dz09JnZhbGlkbWludXRlcz0xNDQwJmlkPWY3OGM3NTc5LTY4N2EtNDQ3NC04ZGU1LTBmMWQxMmRhMWYwMg=="
+    "streamUrl": "https://video-auth6.iol.pt/edge_servers/tvi-720_passthrough/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8yNi8yMDI1IDEyOjEwOjQ4IFBNJmhhc2hfdmFsdWU9Nk5tRGhMZkdVRDYrZWxzdlkyVmN0dz09JnZhbGlkbWludXRlcz0xNDQwJmlkPWY3OGM3NTc5LTY4N2EtNDQ3NC04ZGU1LTBmMWQxMmRhMWYwMg==",
+    "logo": "https://i.imgur.com/H8Tgl7m.png"
   },
   {
-    "id": "ch-581",
+    "id": "ch-537",
     "name": "TVI (854x480 · 845 kbps)",
     "group": "iprtl",
-    "streamUrl": "https://video-auth6.iol.pt/edge_servers/tvi-480p/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8yNi8yMDI1IDEyOjEwOjQ4IFBNJmhhc2hfdmFsdWU9Nk5tRGhMZkdVRDYrZWxzdlkyVmN0dz09JnZhbGlkbWludXRlcz0xNDQwJmlkPWY3OGM3NTc5LTY4N2EtNDQ3NC04ZGU1LTBmMWQxMmRhMWYwMg=="
+    "streamUrl": "https://video-auth6.iol.pt/edge_servers/tvi-480p/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8yNi8yMDI1IDEyOjEwOjQ4IFBNJmhhc2hfdmFsdWU9Nk5tRGhMZkdVRDYrZWxzdlkyVmN0dz09JnZhbGlkbWludXRlcz0xNDQwJmlkPWY3OGM3NTc5LTY4N2EtNDQ3NC04ZGU1LTBmMWQxMmRhMWYwMg==",
+    "logo": "https://i.imgur.com/H8Tgl7m.png"
   },
   {
-    "id": "ch-582",
+    "id": "ch-538",
     "name": "TVI (640x360 · 566 kbps)",
     "group": "iprtl",
-    "streamUrl": "https://video-auth6.iol.pt/edge_servers/tvi-360p/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8yNi8yMDI1IDEyOjEwOjQ4IFBNJmhhc2hfdmFsdWU9Nk5tRGhMZkdVRDYrZWxzdlkyVmN0dz09JnZhbGlkbWludXRlcz0xNDQwJmlkPWY3OGM3NTc5LTY4N2EtNDQ3NC04ZGU1LTBmMWQxMmRhMWYwMg=="
+    "streamUrl": "https://video-auth6.iol.pt/edge_servers/tvi-360p/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8yNi8yMDI1IDEyOjEwOjQ4IFBNJmhhc2hfdmFsdWU9Nk5tRGhMZkdVRDYrZWxzdlkyVmN0dz09JnZhbGlkbWludXRlcz0xNDQwJmlkPWY3OGM3NTc5LTY4N2EtNDQ3NC04ZGU1LTBmMWQxMmRhMWYwMg==",
+    "logo": "https://i.imgur.com/H8Tgl7m.png"
   },
   {
-    "id": "ch-583",
+    "id": "ch-539",
     "name": "TVI (426x240 · 346 kbps)",
     "group": "iprtl",
-    "streamUrl": "https://video-auth6.iol.pt/edge_servers/tvi-240p/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8yNi8yMDI1IDEyOjEwOjQ4IFBNJmhhc2hfdmFsdWU9Nk5tRGhMZkdVRDYrZWxzdlkyVmN0dz09JnZhbGlkbWludXRlcz0xNDQwJmlkPWY3OGM3NTc5LTY4N2EtNDQ3NC04ZGU1LTBmMWQxMmRhMWYwMg=="
+    "streamUrl": "https://video-auth6.iol.pt/edge_servers/tvi-240p/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8yNi8yMDI1IDEyOjEwOjQ4IFBNJmhhc2hfdmFsdWU9Nk5tRGhMZkdVRDYrZWxzdlkyVmN0dz09JnZhbGlkbWludXRlcz0xNDQwJmlkPWY3OGM3NTc5LTY4N2EtNDQ3NC04ZGU1LTBmMWQxMmRhMWYwMg==",
+    "logo": "https://i.imgur.com/H8Tgl7m.png"
   },
   {
-    "id": "ch-584",
+    "id": "ch-540",
     "name": "TVIINT (1280x720 · 2225 kbps)",
     "group": "iprtl",
     "streamUrl": "https://video-auth6.iol.pt/edge_servers/tviinternacional-720p/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8yNi8yMDI1IDEyOjEwOjQ5IFBNJmhhc2hfdmFsdWU9dmlwYmZTY3NaaisyTWowcDRNTFpLQT09JnZhbGlkbWludXRlcz0xNDQwJmlkPTMxYTYyNWEzLTk3YzYtNDc5Mi1iNDQ0LWFkNzQwYjVkOWIzZQ=="
   },
   {
-    "id": "ch-585",
+    "id": "ch-541",
     "name": "TVIINT (854x480 · 991 kbps)",
     "group": "iprtl",
     "streamUrl": "https://video-auth6.iol.pt/edge_servers/tviinternacional-480p/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8yNi8yMDI1IDEyOjEwOjQ5IFBNJmhhc2hfdmFsdWU9dmlwYmZTY3NaaisyTWowcDRNTFpLQT09JnZhbGlkbWludXRlcz0xNDQwJmlkPTMxYTYyNWEzLTk3YzYtNDc5Mi1iNDQ0LWFkNzQwYjVkOWIzZQ=="
   },
   {
-    "id": "ch-586",
+    "id": "ch-542",
     "name": "TVIINT (640x360 · 660 kbps)",
     "group": "iprtl",
     "streamUrl": "https://video-auth6.iol.pt/edge_servers/tviinternacional-360p/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8yNi8yMDI1IDEyOjEwOjQ5IFBNJmhhc2hfdmFsdWU9dmlwYmZTY3NaaisyTWowcDRNTFpLQT09JnZhbGlkbWludXRlcz0xNDQwJmlkPTMxYTYyNWEzLTk3YzYtNDc5Mi1iNDQ0LWFkNzQwYjVkOWIzZQ=="
   },
   {
-    "id": "ch-587",
+    "id": "ch-543",
     "name": "TVIINT (426x240 · 394 kbps)",
     "group": "iprtl",
     "streamUrl": "https://video-auth6.iol.pt/edge_servers/tviinternacional-240p/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8yNi8yMDI1IDEyOjEwOjQ5IFBNJmhhc2hfdmFsdWU9dmlwYmZTY3NaaisyTWowcDRNTFpLQT09JnZhbGlkbWludXRlcz0xNDQwJmlkPTMxYTYyNWEzLTk3YzYtNDc5Mi1iNDQ0LWFkNzQwYjVkOWIzZQ=="
   },
   {
-    "id": "ch-588",
+    "id": "ch-544",
     "name": "goltv (2700 kbps)",
     "group": "iprtl",
     "streamUrl": "http://stalker.klma2023.net:80/play/live.php?mac=00:1B:79:F8:59:0E&stream=73435&extension=m3u8"
   },
   {
-    "id": "ch-589",
+    "id": "ch-545",
     "name": "sicnoticias (2700 kbps)",
     "group": "iprtl",
     "streamUrl": "http://stalker.klma2023.net:80/play/live.php?mac=00:1B:79:F8:59:0E&stream=9083&extension=m3u8"
   },
   {
-    "id": "ch-590",
+    "id": "ch-546",
     "name": "sicnoticias (2700 kbps · 2)",
     "group": "iprtl",
     "streamUrl": "http://stalker.klma2023.net:80/play/live.php?mac=00:1A:79:10:D4:58&stream=9083&extension=m3u8"
   },
   {
-    "id": "ch-591",
+    "id": "ch-547",
     "name": "sicnoticias (2700 kbps · 3)",
     "group": "iprtl",
     "streamUrl": "http://iptvsub1-4kplus.com:80/play/live.php?mac=00:1A:79:00:12:98&stream=368055&extension=m3u8"
   },
   {
-    "id": "ch-592",
+    "id": "ch-548",
     "name": "sicnoticias (2700 kbps · 4)",
     "group": "iprtl",
     "streamUrl": "http://v3tv.live:80/play/live.php?mac=00:1A:79:27:82:95&stream=9083&extension=m3u8"
   },
   {
-    "id": "ch-593",
+    "id": "ch-549",
     "name": "sicnoticias (2700 kbps · 5)",
     "group": "iprtl",
     "streamUrl": "http://v3tv.live:80/play/live.php?mac=00:1A:79:F5:5F:02&stream=9083&extension=m3u8"
   },
   {
-    "id": "ch-594",
+    "id": "ch-550",
     "name": "sicnoticias (2200 kbps)",
     "group": "iprtl",
     "streamUrl": "http://kstv.us:8080/live/wsMud3Rf4V/00664869463/48494.m3u8"
   },
   {
-    "id": "ch-595",
+    "id": "ch-551",
     "name": "sk1 (2700 kbps)",
     "group": "iprtl",
     "streamUrl": "http://stalker.klma2023.net:80/play/live.php?mac=00:1B:79:F8:59:0E&stream=227232&extension=m3u8"
   },
   {
-    "id": "ch-596",
+    "id": "ch-552",
     "name": "sk1 (2700 kbps · 2)",
     "group": "iprtl",
     "streamUrl": "http://stalker.klma2023.net:80/play/live.php?mac=00:1B:79:F8:59:0E&stream=32983&extension=m3u8"
   },
   {
-    "id": "ch-597",
+    "id": "ch-553",
     "name": "sk1SL (2700 kbps)",
     "group": "iprtl",
     "streamUrl": "http://telle.cc:80/play/live.php?mac=00:1A:79:7E:2F:ED&stream=1862128&extension=m3u8"
   },
   {
-    "id": "ch-598",
+    "id": "ch-554",
     "name": "sk2 (2700 kbps)",
     "group": "iprtl",
     "streamUrl": "http://stalker.klma2023.net:80/play/live.php?mac=00:1B:79:F8:59:0E&stream=227233&extension=m3u8"
   },
   {
-    "id": "ch-599",
+    "id": "ch-555",
     "name": "sk2SL (2700 kbps)",
     "group": "iprtl",
     "streamUrl": "http://telle.cc:80/play/live.php?mac=00:1A:79:7E:2F:ED&stream=1862127&extension=m3u8"
   },
   {
-    "id": "ch-600",
+    "id": "ch-556",
     "name": "sk3 (2700 kbps)",
     "group": "iprtl",
     "streamUrl": "http://stalker.klma2023.net:80/play/live.php?mac=00:1B:79:F8:59:0E&stream=227271&extension=m3u8"
   },
   {
-    "id": "ch-601",
+    "id": "ch-557",
     "name": "sk3SL (2700 kbps)",
     "group": "iprtl",
     "streamUrl": "http://telle.cc:80/play/live.php?mac=00:1A:79:7E:2F:ED&stream=1862126&extension=m3u8"
   },
   {
-    "id": "ch-602",
+    "id": "ch-558",
     "name": "superdigitalDE (2700 kbps)",
     "group": "iprtl",
     "streamUrl": "http://stalker.klma2023.net:80/play/live.php?mac=00:1B:79:F8:59:0E&stream=268016&extension=m3u8"
   },
   {
-    "id": "ch-603",
+    "id": "ch-559",
     "name": "superdigitalDE (2700 kbps · 2)",
     "group": "iprtl",
     "streamUrl": "http://iptvsub1-4kplus.com:80/play/live.php?mac=00:1A:79:00:12:98&stream=411539&extension=m3u8"
   },
   {
-    "id": "ch-604",
+    "id": "ch-560",
     "name": "ziggo4 (2700 kbps)",
     "group": "iprtl",
     "streamUrl": "http://iptvsub1-4kplus.com:80/play/live.php?mac=00:1A:79:00:12:98&stream=1282760&extension=m3u8"
