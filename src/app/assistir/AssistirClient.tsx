@@ -4,6 +4,8 @@ import Hls from "hls.js";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 
+import { SiteLogo } from "@/components/SiteLogo";
+
 const M3U8_PLAYER_PT = "https://m3u8-player.net/pt-BR/";
 
 function isProbablyM3u8(url: string): boolean {
@@ -109,10 +111,16 @@ export function AssistirClient() {
   if (parseErr) {
     return (
       <div className="mx-auto max-w-lg px-4 py-16 text-center">
-        <p className="text-slate-300">{parseErr}</p>
+        <Link
+          href="/"
+          className="inline-block focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent"
+        >
+          <SiteLogo variant="page" className="mx-auto" />
+        </Link>
+        <p className="mt-6 text-slate-300">{parseErr}</p>
         <Link
           href="/canais"
-          className="mt-6 inline-block font-semibold text-accent hover:underline"
+          className="mt-6 inline-block font-semibold text-accent-bright hover:underline"
         >
           ← Lista de canais
         </Link>
@@ -121,12 +129,22 @@ export function AssistirClient() {
   }
 
   return (
-    <div className="mx-auto max-w-3xl px-4 py-8 pb-16">
-      <div className="mb-6 flex flex-wrap items-center justify-between gap-4">
-        <h1 className="text-xl font-extrabold text-slate-100">Reproduzir stream</h1>
+    <div className="mx-auto max-w-3xl px-4 py-8 pb-16 md:px-6">
+      <div className="mb-6 flex flex-col gap-4 sm:flex-row sm:flex-wrap sm:items-center sm:justify-between">
+        <div className="flex flex-wrap items-center gap-4">
+          <Link
+            href="/"
+            className="shrink-0 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent"
+          >
+            <SiteLogo variant="compact" />
+          </Link>
+          <h1 className="font-display text-2xl font-bold text-white">
+            Reproduzir stream
+          </h1>
+        </div>
         <Link
           href="/canais"
-          className="text-sm font-semibold text-accent hover:underline"
+          className="text-sm font-semibold text-accent-bright hover:underline"
         >
           ← Lista de canais
         </Link>
@@ -141,7 +159,7 @@ export function AssistirClient() {
           href={M3U8_PLAYER_PT}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-accent hover:underline"
+          className="text-accent-bright hover:underline"
         >
           M3U8 Player
         </a>
@@ -152,7 +170,7 @@ export function AssistirClient() {
           href="https://github.com/video-dev/hls.js/"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-accent hover:underline"
+          className="text-accent-bright hover:underline"
         >
           HLS.js
         </a>
@@ -187,7 +205,7 @@ export function AssistirClient() {
         </p>
       )}
 
-      <div className="relative overflow-hidden rounded-xl border border-white/[0.08] bg-black">
+      <div className="relative overflow-hidden rounded-2xl border border-white/[0.1] bg-black shadow-card">
         {/* eslint-disable-next-line jsx-a11y/media-has-caption */}
         <video
           ref={videoRef}

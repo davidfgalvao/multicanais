@@ -1,0 +1,17 @@
+{
+  "name": "StreamFutebol",
+  "short_name": "StreamFutebol",
+  "description": "Canais de futebol e filmes — lista M3U e reprodução no browser",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#041308",
+  "theme_color": "#22c55e",
+  "icons": [
+    {
+      "src": "/logo-streamfutbol.png",
+      "sizes": "320x96",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

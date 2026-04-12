@@ -1,6 +1,8 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 
+import { SiteLogo } from "@/components/SiteLogo";
+
 export const metadata: Metadata = {
   title: "Guia M3U / IPTV | Referência",
   description:
@@ -15,11 +17,17 @@ const iptvOrgIndex =
 
 export default function GuiaPage() {
   return (
-    <div className="mx-auto max-w-3xl px-4 py-10 pb-16 text-slate-100">
-      <p className="text-sm font-semibold uppercase tracking-wide text-accent">
+    <div className="mx-auto max-w-3xl px-4 py-10 pb-16 text-slate-100 md:px-6">
+      <Link
+        href="/"
+        className="inline-block focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent"
+      >
+        <SiteLogo variant="page" />
+      </Link>
+      <p className="mt-6 font-display text-sm font-semibold uppercase tracking-[0.2em] text-accent-bright">
         Referência de estudo
       </p>
-      <h1 className="mt-2 text-3xl font-extrabold tracking-tight">
+      <h1 className="mt-2 font-display text-3xl font-bold tracking-tight text-white md:text-4xl">
         M3U, IPTV e este projeto
       </h1>
       <p className="mt-4 text-sm leading-relaxed text-slate-400">
@@ -30,7 +38,7 @@ export default function GuiaPage() {
           href={artigoRef}
           target="_blank"
           rel="noopener noreferrer"
-          className="font-semibold text-accent underline-offset-2 hover:underline"
+          className="font-semibold text-accent-bright underline-offset-2 hover:underline"
         >
           Lista de reprodução IPTV M3U grátis — guia no m3u8-player.net
         </a>
@@ -38,10 +46,13 @@ export default function GuiaPage() {
       </p>
 
       <section className="mt-10 space-y-3">
-        <h2 className="text-lg font-bold text-slate-100">M3U e M3U8</h2>
+        <h2 className="font-display text-lg font-bold text-white">
+          M3U e M3U8
+        </h2>
         <p className="text-sm leading-relaxed text-slate-400">
-          Um ficheiro <code className="font-mono text-accent">.m3u</code> ou{" "}
-          <code className="font-mono text-accent">.m3u8</code> é texto: lista
+          Um ficheiro <code className="font-mono text-accent-bright">.m3u</code>{" "}
+          ou <code className="font-mono text-accent-bright">.m3u8</code> é
+          texto: lista
           de entradas (<code className="font-mono">#EXTINF</code>) e URLs de
           fluxo. O vídeo não está dentro do ficheiro — só os endereços. O M3U8
           usa normalmente UTF-8, o que ajuda nomes com acentos (como no artigo
@@ -50,7 +61,7 @@ export default function GuiaPage() {
       </section>
 
       <section className="mt-10 space-y-3">
-        <h2 className="text-lg font-bold text-slate-100">
+        <h2 className="font-display text-lg font-bold text-white">
           iptv-org no teu deploy (automático)
         </h2>
         <p className="text-sm leading-relaxed text-slate-400">
@@ -59,7 +70,7 @@ export default function GuiaPage() {
             href="https://github.com/iptv-org/iptv"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-accent hover:underline"
+            className="text-accent-bright hover:underline"
           >
             iptv-org/iptv
           </a>{" "}
@@ -74,7 +85,7 @@ export default function GuiaPage() {
             href="https://github.com/iprtl/m3u"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-accent hover:underline"
+            className="text-accent-bright hover:underline"
           >
             iprtl/m3u
           </a>{" "}
@@ -94,7 +105,7 @@ export default function GuiaPage() {
             href="https://github.com/iptv-org/api"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-accent hover:underline"
+            className="text-accent-bright hover:underline"
           >
             API pública iptv-org
           </a>{" "}
@@ -116,7 +127,7 @@ export default function GuiaPage() {
             href="https://github.com/iptv-org/iptv/blob/master/PLAYLISTS.md"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-accent hover:underline"
+            className="text-accent-bright hover:underline"
           >
             PLAYLISTS.md
           </a>
@@ -128,20 +139,20 @@ export default function GuiaPage() {
       </section>
 
       <section className="mt-10 space-y-3">
-        <h2 className="text-lg font-bold text-slate-100">
+        <h2 className="font-display text-lg font-bold text-white">
           Como encaixa <em>este</em> projeto
         </h2>
         <ol className="list-decimal space-y-2 pl-5 text-sm leading-relaxed text-slate-400">
           <li>
             <strong className="text-slate-300">Início</strong> (
-            <Link href="/" className="text-accent hover:underline">
+            <Link href="/" className="text-accent-bright hover:underline">
               /
             </Link>
             ) — apresentação do projeto e atalhos.
           </li>
           <li>
             <strong className="text-slate-300">Lista de canais</strong> (
-            <Link href="/canais" className="text-accent hover:underline">
+            <Link href="/canais" className="text-accent-bright hover:underline">
               /canais
             </Link>
             ) — preenchida no <code className="font-mono">build</code> a partir
@@ -149,7 +160,13 @@ export default function GuiaPage() {
             <code className="font-mono">npm run import:channels</code> para um{" "}
             <code className="font-mono">.m3u</code> teu (o mesmo filtro de
             bandeiras aplica-se, salvo{" "}
-            <code className="font-mono">KEEP_FOREIGN_FLAG_CHANNELS=1</code>).
+            <code className="font-mono">KEEP_FOREIGN_FLAG_CHANNELS=1</code>). A
+            barra de categorias (Brasileirão, NBA, etc.) filtra por palavras no
+            grupo/nome; não são dados oficiais de jogos. URL:{" "}
+            <code className="font-mono text-xs text-slate-400">
+              /canais?c=brasileirao
+            </code>
+            .
           </li>
           <li>
             O site mostra grupos e ligações <strong className="text-slate-300">Abrir fonte</strong>; a
@@ -160,7 +177,9 @@ export default function GuiaPage() {
       </section>
 
       <section className="mt-10 space-y-3">
-        <h2 className="text-lg font-bold text-slate-100">Players recomendados</h2>
+        <h2 className="font-display text-lg font-bold text-white">
+          Players recomendados
+        </h2>
         <p className="text-sm leading-relaxed text-slate-400">
           O artigo sugere, entre outros,{" "}
           <strong className="text-slate-300">VLC</strong> (desktop), apps IPTV
@@ -170,7 +189,7 @@ export default function GuiaPage() {
             href={artigoRef}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-accent hover:underline"
+            className="text-accent-bright hover:underline"
           >
             guia completo
           </a>
@@ -191,15 +210,29 @@ export default function GuiaPage() {
         </p>
       </section>
 
-      <p className="mt-10 text-sm text-slate-500">
-        <Link href="/canais" className="font-semibold text-accent hover:underline">
-          Ir para lista de canais
+      <div className="mt-12 border-t border-white/10 pt-10">
+        <Link
+          href="/"
+          className="mx-auto block w-fit focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent"
+        >
+          <SiteLogo variant="compact" className="mx-auto" />
         </Link>
-        {" · "}
-        <Link href="/" className="font-semibold text-accent hover:underline">
-          Início
-        </Link>
-      </p>
+        <p className="mt-6 text-center text-sm text-slate-500">
+          <Link
+            href="/canais"
+            className="font-semibold text-accent-bright hover:underline"
+          >
+            Ir para lista de canais
+          </Link>
+          {" · "}
+          <Link
+            href="/"
+            className="font-semibold text-accent-bright hover:underline"
+          >
+            Início
+          </Link>
+        </p>
+      </div>
     </div>
   );
 }
