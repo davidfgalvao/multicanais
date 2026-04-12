@@ -75,9 +75,24 @@ export default function CanaisPage() {
       </div>
 
       <p className="mb-8 rounded-lg border border-amber-500/20 bg-amber-500/10 px-4 py-3 text-sm text-amber-100/90">
-        No navegador, fluxos <code className="font-mono">.m3u8</code> costumam
-        funcionar melhor com players HLS; outras URLs podem abrir noutra app ou
-        pedir autenticação conforme a tua lista oficial.
+        <strong className="text-amber-50">Dica:</strong> muitos fluxos{" "}
+        <code className="font-mono">.m3u8</code> demoram{" "}
+        <strong className="text-amber-50">vários segundos (às vezes mais de um
+        minuto)</strong> a começar — é normal: o player descarrega o manifesto,
+        escolhe qualidade e enche o buffer. No Chrome, «Abrir fonte» só com o
+        link direto muitas vezes não toca; usa{" "}
+        <strong className="text-amber-50">Reproduzir aqui</strong> (HLS.js, como
+        no{" "}
+        <a
+          href="https://m3u8-player.net/pt-BR/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-semibold text-amber-200 underline"
+        >
+          M3U8 Player
+        </a>
+        ) e espera que a imagem apareça. Se falhar de todo (ex. CORS), cola o
+        URL no M3U8 Player. MP4/outros: «Abrir fonte» pode bastar.
       </p>
 
       {[...grouped.entries()].map(([group, list]) => (
@@ -110,14 +125,22 @@ export default function CanaisPage() {
                 <span className="min-w-0 flex-1 font-semibold text-slate-100">
                   {ch.name}
                 </span>
-                <a
-                  href={ch.streamUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="shrink-0 rounded-lg bg-accent px-3 py-2 text-sm font-bold text-teal-950 hover:opacity-95"
-                >
-                  Abrir fonte
-                </a>
+                <div className="flex shrink-0 flex-wrap gap-2">
+                  <a
+                    href={`/assistir#${encodeURIComponent(ch.streamUrl)}`}
+                    className="rounded-lg bg-accent px-3 py-2 text-sm font-bold text-teal-950 hover:opacity-95"
+                  >
+                    Reproduzir aqui
+                  </a>
+                  <a
+                    href={ch.streamUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="rounded-lg border border-white/20 px-3 py-2 text-sm font-semibold text-slate-200 hover:bg-white/5"
+                  >
+                    Abrir fonte
+                  </a>
+                </div>
               </li>
             ))}
           </ul>

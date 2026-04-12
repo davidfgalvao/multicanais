@@ -12,6 +12,7 @@
     "import:paste": "pbpaste | tsx scripts/import-m3u.ts -"
   },
   "dependencies": {
+    "hls.js": "^1.6.15",
     "next": "^15.1.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
