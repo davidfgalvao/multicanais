@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
+import { SiteNav } from "@/components/SiteNav";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -8,8 +9,8 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Pluto TV ao vivo",
-  description: "Acesso ao canal ao vivo oficial e gratuito da Pluto TV",
+  title: "Lista M3U — canais",
+  description: "Importação M3U, lista de canais e guia de referência",
 };
 
 export default function RootLayout({
@@ -22,6 +23,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} font-sans antialiased`}
       >
+        <SiteNav />
         {children}
       </body>
     </html>

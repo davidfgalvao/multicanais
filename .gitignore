@@ -9,3 +9,8 @@ web-build/
 .env
 .env.*
 !.env.example
+
+# Lista M3U local (opcional; não versionar se tiver credenciais)
+playlist.m3u
+*.m3u.local
+# Lista antiga / genérica na raiz (usa data/canais-abertos.m3u para a tua lista oficial)
