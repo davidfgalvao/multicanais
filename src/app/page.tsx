@@ -3,7 +3,7 @@ export default function Page() {
     <div className="w-full px-0 py-4 pb-10 md:py-6">
       <div className="mx-auto mb-4 w-full max-w-[95vw] px-4 md:px-6">
         <h1 className="font-display text-2xl font-bold text-white md:text-3xl">
-          Parceiro (página inicial)
+          Página inicial
         </h1>
       </div>
 
