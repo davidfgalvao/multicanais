@@ -13,7 +13,7 @@ export default function Page() {
           title="Site parceiro"
           className="h-[82vh] w-full"
           loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
+          referrerPolicy="no-referrer"
           allow="autoplay; fullscreen"
         />
       </div>
