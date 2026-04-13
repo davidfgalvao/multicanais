@@ -32,6 +32,9 @@ export function SiteNav() {
           <Link href="/guia" className={navLink}>
             Guia
           </Link>
+          <Link href="/parceiro" className={navLink}>
+            Parceiro
+          </Link>
         </nav>
       </div>
     </header>
