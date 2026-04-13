@@ -20,6 +20,7 @@ function foldBoth(group: string, name: string): string {
 
 function isBrasileirao(g: string, n: string): boolean {
   const t = foldBoth(g, n);
+  const hasPremiere = /\bpremiere\b/.test(t) || /\bpfc\b/.test(t);
   return (
     /\bbrasileir/.test(t) ||
     /\bserie\s*a\b.*\bbrasil/.test(t) ||
@@ -29,8 +30,7 @@ function isBrasileirao(g: string, n: string): boolean {
     /\bgaucho\b/.test(t) ||
     /\bparanaense\b/.test(t) ||
     /\bcopa\s*do\s*brasil\b/.test(t) ||
-    /\bpremiere\b/.test(t) ||
-    /\bpremiere\s*\d+\b/.test(t) ||
+    hasPremiere ||
     /\bcombate\b/.test(t) ||
     (/\bsportv\b/.test(t) && /\bbrasil\b/.test(t))
   );
@@ -60,8 +60,9 @@ const tests: Record<
   brasileirao: isBrasileirao,
   "futebol-intl": (g, n) => {
     const t = foldBoth(g, n);
+    const isEspn = /\bespn\b/.test(t);
     if (isBrasileirao(g, n)) return false;
-    if (isLibertadores(g, n)) return false;
+    if (isLibertadores(g, n) && !isEspn) return false;
     if (isChampions(g, n)) return false;
     return (
       /\blaliga\b/.test(t) ||
@@ -75,7 +76,7 @@ const tests: Record<
       /\bmls\b/.test(t) ||
       /\beuro\b/.test(t) ||
       /\beliminat[oó]rias\b/.test(t) ||
-      (/\bespn\b/.test(t) && !/\bbrasil\b/.test(t))
+      isEspn
     );
   },
   libertadores: isLibertadores,
