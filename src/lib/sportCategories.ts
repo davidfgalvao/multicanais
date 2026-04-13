@@ -30,18 +30,27 @@ function isBrasileirao(g: string, n: string): boolean {
     /\bparanaense\b/.test(t) ||
     /\bcopa\s*do\s*brasil\b/.test(t) ||
     /\bpremiere\b/.test(t) ||
+    /\bpremiere\s*\d+\b/.test(t) ||
     /\bcombate\b/.test(t) ||
     (/\bsportv\b/.test(t) && /\bbrasil\b/.test(t))
   );
 }
 
 function isLibertadores(g: string, n: string): boolean {
-  return /\blibertadores\b/.test(foldBoth(g, n));
+  const t = foldBoth(g, n);
+  return /\blibertadores\b/.test(t) || /\bespn\b/.test(t);
 }
 
 function isChampions(g: string, n: string): boolean {
   const t = foldBoth(g, n);
-  return /\bchampions\b/.test(t) || /\buefa\b/.test(t);
+  return (
+    /\bchampions\b/.test(t) ||
+    /\buefa\b/.test(t) ||
+    /\bsbt\b/.test(t) ||
+    /\btnt\b/.test(t) ||
+    /\bhbo\s*max\b/.test(t) ||
+    /\bmax\b/.test(t)
+  );
 }
 
 const tests: Record<
