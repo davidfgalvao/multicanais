@@ -21,7 +21,7 @@ export function SiteNav() {
           aria-label="Principal"
         >
           <Link href="/" className={navLink}>
-            Parceiro
+            Início
           </Link>
           <Link href="/em-construcao" className={navLink}>
             Em construção

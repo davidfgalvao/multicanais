@@ -5,11 +5,6 @@ export default function Page() {
         <h1 className="font-display text-2xl font-bold text-white md:text-3xl">
           Parceiro (página inicial)
         </h1>
-        <p className="mt-2 text-sm text-slate-400">
-          Conteúdo de teste carregado no teu frontend. A aba{" "}
-          <strong className="text-slate-200">Em construção</strong> mantém a
-          agenda, categorias e destaques.
-        </p>
       </div>
 
       <div className="overflow-hidden rounded-2xl border border-white/10 bg-black/30">
