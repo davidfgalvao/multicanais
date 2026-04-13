@@ -29,12 +29,6 @@ export function SiteNav() {
           <Link href="/em-construcao" className={navLink}>
             Em construção
           </Link>
-          <Link href="/canais" className={navLink}>
-            Canais
-          </Link>
-          <Link href="/assistir" className={navLink}>
-            Assistir
-          </Link>
           <Link href="/guia" className={navLink}>
             Guia
           </Link>
