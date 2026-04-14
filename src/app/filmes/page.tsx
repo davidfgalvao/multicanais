@@ -14,7 +14,7 @@ export default function FilmesPage() {
 
       <div className="mx-auto w-full max-w-[95vw] overflow-hidden rounded-2xl border border-white/10 bg-black/30">
         <iframe
-          src="https://redecanais.ph/"
+          src="https://www14.redecanais.in/"
           title="Filmes"
           className="h-[82vh] w-full"
           loading="lazy"
@@ -25,7 +25,7 @@ export default function FilmesPage() {
 
       <div className="mx-auto w-full max-w-[95vw] px-1">
         <a
-          href="https://redecanais.ph/"
+          href="https://www14.redecanais.in/"
           target="_blank"
           rel="noopener noreferrer"
           className="mt-4 inline-flex min-h-[44px] items-center rounded-lg border border-white/15 px-4 text-sm font-semibold text-slate-200 transition-colors hover:border-accent/40 hover:bg-white/[0.05]"
