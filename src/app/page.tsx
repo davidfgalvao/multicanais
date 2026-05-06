@@ -15,7 +15,6 @@ export default function Page() {
           loading="lazy"
           referrerPolicy="no-referrer"
           allow="autoplay; fullscreen"
-          sandbox="allow-scripts allow-same-origin allow-forms allow-modals allow-presentation allow-downloads allow-fullscreen allow-storage-access-by-user-activation"
         />
       </div>
 
