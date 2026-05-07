@@ -2,18 +2,25 @@ import Link from "next/link";
 
 import { DayCalendarStrip } from "@/components/portal/DayCalendarStrip";
 import { MatchStyleChannelCard } from "@/components/portal/MatchStyleChannelCard";
+import { NossoPlayerChannelCard } from "@/components/portal/NossoPlayerChannelCard";
 import { SiteLogo } from "@/components/SiteLogo";
 import { getImportedChannels } from "@/data/channels";
+import { NOSSO_PLAYER_CATEGORIES, NOSSO_PLAYER_ORIGIN } from "@/data/nossoPlayerChannels";
 
 export const metadata = {
   title: "Em construção | StreamFutebol",
-  description: "Área em construção com agenda, categorias e destaques.",
+  description:
+    "Área em construção com canais do parceiro Nosso Player, agenda e destaques da lista M3U.",
 };
 
 export default function EmConstrucaoPage() {
   const channels = getImportedChannels();
   const preview = channels.slice(0, 18);
   const count = channels.length;
+  const partnerChannelCount = NOSSO_PLAYER_CATEGORIES.reduce(
+    (n, c) => n + c.channels.length,
+    0
+  );
 
   return (
     <div className="relative pb-20 pt-8 md:pt-12">
@@ -34,9 +41,61 @@ export default function EmConstrucaoPage() {
             Agenda e destaques da lista
           </h1>
           <p className="mt-4 text-base leading-relaxed text-slate-400">
-            Esta aba concentra os módulos em evolução do projeto: categorias,
-            agenda visual e seleção de canais em destaque.
+            Esta aba concentra os módulos em evolução: canais com links para o
+            player do parceiro, agenda visual e destaques da lista M3U local.
           </p>
+        </div>
+
+        <div className="mt-12 rounded-2xl border border-white/[0.08] bg-surface-card/40 p-4 backdrop-blur-sm md:p-6">
+          <div className="flex flex-col gap-1 sm:flex-row sm:items-end sm:justify-between">
+            <h2 className="font-display text-lg font-bold text-white">
+              Canais do parceiro (Nosso Player)
+            </h2>
+            <p className="text-sm font-medium text-slate-500">
+              <span className="tabular-nums text-accent-bright">
+                {partnerChannelCount}
+              </span>{" "}
+              canais mapeados
+            </p>
+          </div>
+          <p className="mt-2 text-sm leading-relaxed text-slate-400">
+            Cada botão abre a página de embed correspondente em{" "}
+            <a
+              href={NOSSO_PLAYER_ORIGIN}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium text-accent-bright underline-offset-2 hover:underline"
+            >
+              nossoplayeronlinehd.ink
+            </a>{" "}
+            (conteúdo e anúncios são do site externo).
+          </p>
+
+          <div className="mt-8 flex flex-col gap-10">
+            {NOSSO_PLAYER_CATEGORIES.map((cat, catIndex) => (
+              <section
+                key={cat.title}
+                aria-labelledby={`nosso-player-cat-${catIndex}`}
+              >
+                <h3
+                  id={`nosso-player-cat-${catIndex}`}
+                  className="font-display text-sm font-bold uppercase tracking-[0.12em] text-accent-bright"
+                >
+                  {cat.title}
+                </h3>
+                <ul className="mt-4 flex flex-col gap-3">
+                  {cat.channels.map((ch) => (
+                    <li key={`${cat.title}-${ch.slug}`}>
+                      <NossoPlayerChannelCard
+                        channel={ch}
+                        categoryLabel={cat.title}
+                      />
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            ))}
+          </div>
         </div>
 
         <div className="mt-10 rounded-2xl border border-white/[0.08] bg-surface-card/40 p-4 backdrop-blur-sm md:p-5">
